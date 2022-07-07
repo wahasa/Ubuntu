@@ -1,4 +1,3 @@
-
 ## Ubuntu on Termux Android
 
 ---------
@@ -93,7 +92,7 @@ Address
 > 127.0.0.1:5901
 
 Name
-> UUbuntu 22
+> Ubuntu 22
 
 To disconnect VNC Client, click (X) on the right.
 
@@ -104,5 +103,5 @@ on Ubuntu, run this command to stop :
 ```
 vncserver-stop
 ```
--------------
 
+-------------
