@@ -15,7 +15,7 @@ Especially for Android 12 there are several bugs, and for more details, please r
 
 Copy and paste this command to Termux :
 
-Ubuntu 22.10 (Kinetic Kudu)
+1. Ubuntu 22.10 (Kinetic Kudu)
 * Install Ubuntu-cli
 
 ```
@@ -34,7 +34,7 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.10/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu lxde
 ```
 
-Ubuntu 22.04 (Jammy Jellyfish)
+2. Ubuntu 22.04 (Jammy Jellyfish)
 * Install Ubuntu-cli
 
 ```
@@ -53,13 +53,13 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.04/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu lxde
 ```
 
-Start Ubuntu
+3. Start Ubuntu
 
 ```
 ./ubuntu
 ```
 
-Stop Ubuntu
+4. Stop Ubuntu
 
 ```
 exit
@@ -79,7 +79,7 @@ Visit problem bug Ubuntu in : [Issues](https://github.com/wahasa/Ubuntu/issues/1
 
 * Start VNC Server
 
-on Debian, run this command to start :
+on Ubuntu, run this command to start :
 
 ```
 vncserver
@@ -99,7 +99,7 @@ To disconnect VNC Client, click (X) on the right.
 
 * Stop VNC Server
 
-on Debian, run this command to stop :
+on Ubuntu, run this command to stop :
 
 ```
 vncserver-stop
