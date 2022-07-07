@@ -68,7 +68,8 @@ exit
 => Visit original site on [Andronix](https://github.com/AndronixApp/AndronixOrigin)
 
 -----------
-- [x] Sound  - [x] Chromium
+- [x] Sound
+- [x] Chromium
 
 Visit problem bug Ubuntu in : [Issues](https://github.com/wahasa/Ubuntu/issues/1)
 
