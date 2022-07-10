@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "#!/bin/bash
+rm -rf /etc/resolv.conf
+echo 'nameserver 8.8.8.8' >> /etc/resolv.conf
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/xfce.sh -O ~/xfce.sh
+chmod +x ~/xfce.sh
+bash ~/xfce.sh
+rm -rf ~/xfce.sh
+rm -rf ~/.bash_profile" > "/home/$1/.bash_profile" 
+chmod +x "/home/$1/.bash_profile"
