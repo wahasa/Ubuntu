@@ -29,7 +29,7 @@ chmod +x ~/.vnc/xstartup
 echo " "
 
 echo "Running browser patch"
-wget  && chmod +x install-browser.sh
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install-browser.sh && chmod +x install-browser.sh
 sudo ./install-browser.sh && rm -rf install-browser.sh
 
 echo "You can now start vncserver by running vncserver-start"
