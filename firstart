@@ -1,0 +1,28 @@
+#! /bin/bash
+
+su
+groupadd --gid 3003 permagrp01
+groupadd --gid 9997 permagrp02
+groupadd --gid 20258 permagrp03
+groupadd --gid 20305 permagrp04
+groupadd --gid 20447 permagrp05
+groupadd --gid 21081 permagrp06
+groupadd --gid 50258 permagrp07
+groupadd --gid 50305 permagrp08
+groupadd --gid 50447 permagrp09
+groupadd --gid 51081 permagrp10
+groupadd --gid 99909997 permagrp11
+
+rm -rf /etc/resolv.conf
+echo "nameserver 1.0.0.1" >> /etc/resolv.conf
+echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+echo "nameserver 4.4.4.4" >> /etc/resolv.conf
+echo "nameserver 8.8.4.4" >> /etc/resolv.conf
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+apt-get update -y
+apt-get install apt-utils wget nano sudo -y
+echo "127.0.0.1 localhost.localdomain localhost
+127.0.1.1 ubuntu" >> /etc/hosts
+sudo su
+
+wget 
