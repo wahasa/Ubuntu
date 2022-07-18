@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "#!/bin/bash
-wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/xfce.sh -O ~/xfce.sh
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/Xfce/xfce.sh -O ~/xfce.sh
 chmod +x ~/xfce.sh
 bash ~/xfce.sh
 rm -rf ~/xfce.sh
