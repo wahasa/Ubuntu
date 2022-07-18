@@ -7,5 +7,5 @@ groupadd --gid 99909997 permagrp5
 apt update -y && apt upgrade -y && apt install wget gnupg sudo dialog -y
 chmod 4755 /usr/bin/sudo
 rm -rf /etc/skel/.prof-fix.1 /root/.prof-fix.1
-chmod +x /usr/share/xfce4/bootstrap
-/usr/share/xfce4/bootstrap; exit
+chmod +x /usr/share/xbox/bootstrap
+/usr/share/xbox/bootstrap; exit
