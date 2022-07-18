@@ -1,9 +1,0 @@
-#!/bin/bash
-
-echo "#!/bin/bash
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/xfce.sh -O ~/xfce.sh
-chmod +x ~/xfce.sh
-bash ~/xfce.sh
-rm -rf ~/xfce.sh
-rm -rf ~/.profix" > "/home/$1/.profix" 
-chmod +x "/home/$1/.profix"
