@@ -1,3 +1,4 @@
+#! /bin/bash
 groupadd --gid 3003 permagrp1
 groupadd --gid 9997 permagrp2
 groupadd --gid 20447 permagrp3
