@@ -18,7 +18,7 @@ Copy and paste this command to Termux :
 * Install Ubuntu-cli
 
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.10/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu cli
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
 ```
 
 * Install Ubuntu-xfce
