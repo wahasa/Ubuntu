@@ -14,6 +14,10 @@ Especially for Android 12 there are several bugs, and for more details, please r
 
 Copy and paste this command to Termux :
 
+```
+pkg update -y && pkg upgrade
+```
+
 1. Ubuntu 22.10 (Kinetic Kudu)
 * Install Ubuntu
 
@@ -24,7 +28,7 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 * Install Ubuntu-xfce
 
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.10/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu xfce
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-ubuntu-xfce.sh && chmod +x de-ubuntu-xfce.sh && ./de-ubuntu-xfce.sh
 ```
 
 * Install Ubuntu-lxde
@@ -33,23 +37,23 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.10/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu lxde
 ```
 
-3. Start Ubuntu
+2. Start Ubuntu
 
 ```
 ./ubuntu
 ```
 
-4. Stop Ubuntu
+3. Stop Ubuntu
 
 ```
 exit
 ```
 
-=> Visit original site on [Andronix](https://github.com/AndronixApp/AndronixOrigin)
+=> Original site on [Andronix](https://github.com/AndronixApp/AndronixOrigin)
 
 -----------
-- [x] Sound
-- [x] Chromium
+- [x] Bug sound fix
+- [x] Bug chromium fix
 
 Visit problem bug Ubuntu in : [Issues](https://github.com/wahasa/Ubuntu/issues/1)
 
