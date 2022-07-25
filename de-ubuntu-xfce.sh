@@ -49,9 +49,10 @@ cat > $bin <<- EOM
 cd \$(dirname \$0)
 pulseaudio -k >> /dev/null 2>&1
 pulseaudio --start >> /dev/null 2>&1
-## unset LD_PRELOAD in case termux-exec is installed
+# unset LD_PRELOAD in case termux-exec is installed
 unset LD_PRELOAD
 command="proot"
+command+=" --kill-on-exit"
 command+=" --link2symlink"
 command+=" -0"
 command+=" -r $folder"
