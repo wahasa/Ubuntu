@@ -33,25 +33,6 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.10/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu lxde
 ```
 
-2. Ubuntu 22.04 (Jammy Jellyfish)
-* Install Ubuntu-cli
-
-```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.04/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu cli
-```
-
-* Install Ubuntu-xfce
-
-```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.04/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu xfce
-```
-
-* Install Ubuntu-lxde
-
-```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.04/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu lxde
-```
-
 3. Start Ubuntu
 
 ```
