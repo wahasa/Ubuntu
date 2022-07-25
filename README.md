@@ -52,8 +52,8 @@ exit
 => Original site on [Andronix](https://github.com/AndronixApp/AndronixOrigin)
 
 -----------
-- [x] Bug sound fix
-- [x] Bug chromium fix
+- [x] Sound bug fix
+- [x] Browser bug fix
 
 Visit problem bug Ubuntu in : [Issues](https://github.com/wahasa/Ubuntu/issues/1)
 
