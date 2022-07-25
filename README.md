@@ -15,7 +15,7 @@ Especially for Android 12 there are several bugs, and for more details, please r
 Copy and paste this command to Termux :
 
 1. Ubuntu 22.10 (Kinetic Kudu)
-* Install Ubuntu-cli
+* Install Ubuntu
 
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
