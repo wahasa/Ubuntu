@@ -122,5 +122,7 @@ apt install firefox-esr -y
 clear
 echo ' Welcome to Andronix | Debian '
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile 
-
 bash $bin
+
+rm audiofix.sh.1
+rm de-ubuntu-xfce.sh
