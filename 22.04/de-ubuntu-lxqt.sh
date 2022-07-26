@@ -120,7 +120,7 @@ clear
 echo 'Installing Browser'
 apt install firefox-esr -y 
 clear
-echo ' Welcome to Andronix | Debian '
+echo ' Welcome to Andronix | Ubuntu '
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile 
 bash $bin
 
