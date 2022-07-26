@@ -34,7 +34,7 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 * Install Ubuntu-lxde
 
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.10/install-ubuntu && chmod +x install-ubuntu && ./install-ubuntu lxde
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-ubuntu-lxde.sh && chmod +x de-ubuntu-lxde.sh && ./de-ubuntu-lxde.sh
 ```
 
 2. Start Ubuntu
@@ -69,12 +69,21 @@ on Ubuntu, run this command to start :
 vncserver
 ```
 
+Or
+```
+vncserver localhost:1
+```
+
 * Open Vnc Viewer
 
 Add (+) VNC Client to connect, fill with :
 
 Address
 > 127.0.0.1:5901
+
+Or
+
+> localhost:1
 
 Name
 > Ubuntu 22
