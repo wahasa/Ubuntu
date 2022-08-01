@@ -49,9 +49,11 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 exit
 ```
 
-=> Original site on [Andronix](https://github.com/AndronixApp/AndronixOrigin)
+---------
 
------------
+> Original site on [Andronix](https://github.com/AndronixApp/AndronixOrigin)
+
+---------
 - [x] Sound bug fix
 - [x] Browser bug fix
 
