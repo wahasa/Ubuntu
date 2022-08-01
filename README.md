@@ -15,7 +15,7 @@ Especially for Android 12 there are several bugs, and for more details, please r
 Copy and paste this command to Termux :
 
 ```
-pkg update -y && pkg upgrade
+pkg update && pkg upgrade
 ```
 
 1. Ubuntu 22.10 (Kinetic Kudu)
