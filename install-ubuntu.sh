@@ -39,7 +39,7 @@ echo "localhost" > ~/"$folder"/etc/hostname
 echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
 echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
 echo "nameserver 8.8.4.4" >> ~/"$folder"/etc/resolv.conf
- fi
+fi
 mkdir -p $folder/binds
 bin=.ubuntu
 echo "writing launch script"
