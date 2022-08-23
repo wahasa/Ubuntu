@@ -4,6 +4,8 @@ pkg install proot -y
 
 termux-setup-storage
 
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/audiofix.sh && chmod +x audiofix.sh && ./audiofix.sh
+
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
 	first=1
@@ -37,27 +39,30 @@ echo "localhost" > ~/"$folder"/etc/hostname
 echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
 echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
 echo "nameserver 8.8.4.4" >> ~/"$folder"/etc/resolv.conf
-fi
-mkdir -p ubuntu-binds
-bin=ubuntu
+ fi
+mkdir -p $folder/binds
+bin=.ubuntu
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
+pulseaudio -k >> /dev/null 2>&1
+pulseaudio --start >> /dev/null 2>&1
 cd \$(dirname \$0)
 ## unset LD_PRELOAD in case termux-exec is installed
 unset LD_PRELOAD
 command="proot"
+command+=" --kill-on-exit"
 command+=" --link2symlink"
 command+=" -0"
 command+=" -r $folder"
-if [ -n "\$(ls -A ubuntu-binds)" ]; then
-    for f in ubuntu-binds/* ;do
+if [ -n "\$(ls -A $folder/binds)" ]; then
+    for f in $folder/binds/* ;do
       . \$f
     done
 fi
 command+=" -b /dev"
 command+=" -b /proc"
-command+=" -b ubuntu-fs/root:/dev/shm"
+command+=" -b $folder/root:/dev/shm"
 ## uncomment the following line to have access to the home directory of termux
 #command+=" -b /data/data/com.termux/files/home:/root"
 ## uncomment the following line to mount /sdcard directly to / 
@@ -81,9 +86,12 @@ echo "fixing shebang of $bin"
 termux-fix-shebang $bin
 echo "making $bin executable"
 chmod +x $bin
+echo "bash $bin" > $PREFIX/bin/ubuntu 
+chmod +x $PREFIX/bin/ubuntu
 echo "removing image for some space"
 rm $tarball
-echo "You can now launch Ubuntu with the ./${bin} script next time"
+echo "You can now launch Ubuntu with the 'ubuntu' script next time"
 bash $bin
 
 rm install-ubuntu.sh
+rm audiofix.sh
