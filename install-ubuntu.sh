@@ -105,7 +105,7 @@ echo "Updating Ubuntu,.."
 echo " "
 echo "#!/bin/bash
 apt update && apt upgrade -y
-apt install dialog sudo nano -y
+apt install dialog apt-utils nano -y
 clear
 echo " "
 echo "You can now start Ubuntu with 'ubuntu' script next time"
