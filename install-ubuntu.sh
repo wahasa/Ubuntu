@@ -35,13 +35,13 @@ if [ "$first" != 1 ];then
 	echo "Decompressing Rootfs, please be patient."
 	proot --link2symlink tar -xf ${cur}/${tarball}||:
 	cd "$cur"
-echo "localhost" > ~/"$folder"/etc/hostname
-echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
-echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
-echo "nameserver 8.8.4.4" >> ~/"$folder"/etc/resolv.conf
-fi
+   fi
+   echo "localhost" > ~/"$folder"/etc/hostname
+   echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
+   echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
 mkdir -p $folder/binds
 bin=.ubuntu
+linux=ubuntu
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
@@ -65,7 +65,7 @@ command+=" -b /proc"
 command+=" -b $folder/root:/dev/shm"
 ## uncomment the following line to have access to the home directory of termux
 #command+=" -b /data/data/com.termux/files/home:/root"
-## uncomment the following line to mount /sdcard directly to / 
+## uncomment the following line to mount /sdcard directly to /
 #command+=" -b /sdcard"
 command+=" -w /root"
 command+=" /usr/bin/env -i"
@@ -82,16 +82,35 @@ else
 fi
 EOM
 
-echo "fixing shebang of $bin"
-termux-fix-shebang $bin
-echo "making $bin executable"
-chmod +x $bin
-echo "bash $bin" > $PREFIX/bin/ubuntu 
-chmod +x $PREFIX/bin/ubuntu
-echo "removing image for some space"
-rm $tarball
-echo "You can now launch Ubuntu with the 'ubuntu' script next time"
+   echo "Fixing shebang of $linux"
+   termux-fix-shebang $bin
+   echo "Making $linux executable"
+   chmod +x $bin
+   echo "bash $bin" > $PREFIX/bin/$linux
+   chmod +x $PREFIX/bin/$linux
+   echo "Removing image for some space"
+   #rm $tarball
+clear
+printf "##################################################\n"
+printf "#                                                #\n"
+printf "#  8   8  8888,  8   8   88,  8  888'888  8   8  #\n"
+printf "#  8   8  8   8  8   8   8 8  8     8     8   8  #\n"
+printf "#  8   8  8888   8   8   8 88 8     8     8   8  #\n"
+printf "#  8   8  8   8  8   8   8  8 8     8     8   8  #\n"
+printf "#  '888'  8888'  '888'   8  '88     8     '888'  #\n"
+printf "#                                                #\n"
+printf "##################################################\n"
+echo " "
+echo "Updating Ubuntu,.."
+echo " "
+echo "#!/bin/bash
+apt update && apt upgrade -y
+apt install dialog sudo nano -y
+clear
+echo " "
+echo "You can now start Ubuntu with 'ubuntu' script next time"
+echo " "
+rm -rf ~/.bash_profile" > $folder/root/.bash_profile
 bash $bin
-
-rm install-ubuntu.sh
-rm audiofix.sh
+   #rm install-ubuntu.sh
+   rm audiofix.sh
