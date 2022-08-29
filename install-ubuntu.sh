@@ -89,7 +89,7 @@ EOM
    echo "bash $bin" > $PREFIX/bin/$linux
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
-   #rm $tarball
+   rm $tarball
 clear
 printf "##################################################\n"
 printf "#                                                #\n"
@@ -105,12 +105,11 @@ echo "Updating Ubuntu,.."
 echo " "
 echo "#!/bin/bash
 apt update && apt upgrade -y
-apt install dialog apt-utils nano -y
 clear
 echo " "
 echo "You can now start Ubuntu with 'ubuntu' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
 bash $bin
-   #rm install-ubuntu.sh
+   rm install-ubuntu.sh
    rm audiofix.sh
