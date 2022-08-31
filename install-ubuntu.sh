@@ -89,7 +89,7 @@ EOM
    echo "bash $bin" > $PREFIX/bin/$linux
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
-   rm $tarball
+   #rm $tarball
 clear
 printf "##################################################\n"
 printf "#                                                #\n"
