@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #Get the necessary components
-sudo apt update
+apt update
+apt install sudo -y
 sudo apt install udisks2 -y
 echo "" > /var/lib/dpkg/info/udisks2.postinst
 sudo dpkg --configure -a
