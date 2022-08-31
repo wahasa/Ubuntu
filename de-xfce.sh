@@ -4,10 +4,10 @@
 apt update
 apt install udisks2 -y
 apt-mark hold udisks2
-apt-get install sudo nano -y
-apt-get install keyboard-configuration tzdata -y
-apt-get install xfce4 xfce4-goodies xfce4-terminal -y
-apt-get install tigervnc-standalone-server dbus-x11 -y
+apt install sudo nano -y
+apt install keyboard-configuration tzdata -y
+apt install xfce4 xfce4-goodies xfce4-terminal -y
+apt install tigervnc-standalone-server dbus-x11 -y
 apt --fix-broken install
 apt clean
 
