@@ -105,6 +105,7 @@ echo "Updating Ubuntu,.."
 echo " "
 echo "#!/bin/bash
 apt update && apt upgrade -y
+apt install apt-utils dialog -y
 clear
 echo " "
 echo "You can now start Ubuntu with 'ubuntu' script next time"
