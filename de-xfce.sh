@@ -2,7 +2,7 @@
 
 #Get the necessary components
 apt-get update
-apt-get install sudo nano -y
+apt-get install sudo -y
 sudo apt-get install udisks2 -y
 sudo apt-mark hold udisks2
 sudo apt-get install keyboard-configuration -y
