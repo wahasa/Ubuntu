@@ -2,14 +2,16 @@
 
 #Get the necessary components
 apt-get update
+apt-get install udisks2 -y
+echo  " "  > /var/lib/dpkg/info/udisks2.postinst
+dpkg --configure -a
+apt-mark hold udisks2
+apt-get install keyboard-configuration -y
+apt-get install tzdata -y
 apt-get install sudo -y
-sudo apt-get install udisks2 -y
-sudo apt-mark hold udisks2
-sudo apt-get install keyboard-configuration -y
-sudo apt-get install tzdata -y
-sudo apt-get install xfce4 xfce4-goodies xfce4-terminal -y
-sudo apt-get tigervnc-standalone-server dbus-x11 -y
-sudo apt-get clean
+apt-get install xfce4 xfce4-goodies xfce4-terminal -y
+apt-get tigervnc-standalone-server dbus-x11 -y
+apt-get clean
 
 #Setup the necessary files
 mkdir -p ~/.vnc
