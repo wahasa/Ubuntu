@@ -3,7 +3,6 @@
 #Get the necessary components
 apt update
 apt install udisks2 -y
-echo "" > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 apt-get install sudo nano -y
 apt-get install keyboard-configuration tzdata -y
