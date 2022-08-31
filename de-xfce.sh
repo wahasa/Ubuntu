@@ -11,6 +11,7 @@ apt-get install tzdata -y
 apt-get install sudo -y
 apt-get install xfce4 xfce4-goodies xfce4-terminal -y
 apt-get tigervnc-standalone-server dbus-x11 -y
+apt-get --fix-broken install
 apt-get clean
 
 #Setup the necessary files
@@ -25,7 +26,7 @@ echo "vncserver -kill :1" > /usr/local/bin/vnc-stop
 chmod +x ~/.vnc/xstartup
 chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
-
+clear
 echo " "
 echo "The VNC Server will be started at 127.0.0.1:5901"
 echo " "
