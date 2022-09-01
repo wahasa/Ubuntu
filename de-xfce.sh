@@ -36,4 +36,5 @@ echo "Stop Vnc Server, run vnc-stop"
 echo " "
 echo " "
 
+rm de-xfce.sh
 vncserver
