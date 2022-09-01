@@ -25,25 +25,33 @@ pkg update && pkg upgrade
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
 ```
 
+2. Desktop Environment
+
+on Ubuntu, run this command :
+
+```
+apt update && apt upgrade
+```
+
 * Install Ubuntu-xfce
 
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-ubuntu-xfce.sh && chmod +x de-ubuntu-xfce.sh && ./de-ubuntu-xfce.sh
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-xfce.sh && chmod +x  && ./de-xfce.sh
 ```
 
 * Install Ubuntu-lxde
 
+* Install Ubuntu-lxqt
+
+* Install Ubuntu-kde
+
+3. Start Ubuntu
+
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-ubuntu-lxde.sh && chmod +x de-ubuntu-lxde.sh && ./de-ubuntu-lxde.sh
+ubuntu
 ```
 
-2. Start Ubuntu
-
-```
-./ubuntu
-```
-
-3. Stop Ubuntu
+4. Stop Ubuntu
 
 ```
 exit
@@ -51,7 +59,7 @@ exit
 
 ---------
 
-> Original site on [Andronix](https://github.com/AndronixApp/AndronixOrigin)
+> Inspired script from [Andronix](https://github.com/AndronixApp/AndronixOrigin)
 
 ---------
 - [x] Sound bug fix
@@ -63,41 +71,36 @@ Visit problem Ubuntu in : [Issues](https://github.com/wahasa/Ubuntu/issues/1)
 
 ## VNC Viewer
 
-* Start VNC Server
+1. Start VNC Server
 
 on Ubuntu, run this command to start :
 
 ```
-vncserver
+vnc-start
 ```
 
-Or
-```
-vncserver localhost:1
-```
-
-* Open Vnc Viewer
+2. Open Vnc Viewer
 
 Add (+) VNC Client to connect, fill with :
 
 Address
-> 127.0.0.1:5901
-
-Or
-
-> localhost:1
+```
+localhost:1
+```
 
 Name
-> Ubuntu 22
+```
+Ubuntu 22
+```
 
 To disconnect VNC Client, click (X) on the right.
 
-* Stop VNC Server
+3. Stop VNC Server
 
 on Ubuntu, run this command to stop :
 
 ```
-vncserver-stop
+vnc-stop
 ```
 
 -------------
