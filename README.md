@@ -39,11 +39,12 @@ apt update && apt upgrade
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-xfce.sh && chmod +x  && ./de-xfce.sh
 ```
 
-* Install Ubuntu-lxde
+> * Install Ubuntu-lxde
 
-* Install Ubuntu-lxqt
+> * Install Ubuntu-lxqt
 
-* Install Ubuntu-kde
+> * Install Ubuntu-kde
+
 
 3. Start Ubuntu
 
