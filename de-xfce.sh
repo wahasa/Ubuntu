@@ -28,13 +28,9 @@ chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
 clear
 echo " "
-echo "The VNC Server will be started at 127.0.0.1:5901"
-echo " "
-echo "You can connect to this address with a VNC Viewer you prefer"
-echo " "
+echo "Vnc Server address will run at 127.0.0.1:5901"
 echo " "
 echo "Start Vnc Server, run vnc-start"
-echo " "
 echo " "
 echo "Stop Vnc Server, run vnc-stop"
 echo " "
