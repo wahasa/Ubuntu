@@ -36,7 +36,7 @@ apt update && apt upgrade
 * Install Ubuntu-xfce
 
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-xfce.sh && chmod +x  && ./de-xfce.sh
+apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-xfce.sh && chmod +x de-xfce.sh && ./de-xfce.sh
 ```
 
 > * Install Ubuntu-lxde
