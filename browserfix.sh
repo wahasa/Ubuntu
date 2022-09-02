@@ -1,21 +1,19 @@
 #!/bin/bash
 
-echo "Removing distribution provided chromium packages and dependencies..."
-sudo apt purge chromium* chromium-browser* snapd -y -qq && apt autoremove -y -qq
-sudo apt purge chromium* chromium-browser* -y -qq && apt autoremove -y -qq
-echo "Adding Debian repo for Chromium installation"
+cd /etc/apt
+cp sources.list /root
+cd
 
-echo "deb http://ftp.debian.org/debian buster main
-deb http://ftp.debian.org/debian buster-updates main" >> /etc/apt/sources.list
+echo "deb http://ftp.debian.org/debian bullseye main
+deb http://ftp.debian.org/debian bullseye-updates main" >> /etc/apt/sources.list
 
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DCC9EFBF77E11517
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AA8E81B4331F7F50
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 112695A0E562B32A
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 605c66f00d6c9793
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 73a4f27b8dd47936
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys a48449044aad5c5d
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4dfab270caa96dfa
 
-apt update -y
-sudo apt install chromium -y
-
-sed -i 's/chromium %U/chromium --no-sandbox %U/g' /usr/share/applications/chromium.desktop
-
+apt update && apt upgrade -y
 sudo apt install firefox-esr -y
+
+rm -rf /etc/apt/sources.list
+mv sources.list /etc/apt/
