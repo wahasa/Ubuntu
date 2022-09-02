@@ -28,8 +28,9 @@ chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
 clear
 
+echo "Installing browser,.."
+echo " "
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/browserfix.sh && chmod +x browserfix.sh && ./browserfix.sh
-
 clear
 echo " "
 echo "Vnc Server address will run at 127.0.0.1:5901"
@@ -38,9 +39,8 @@ echo "Start Vnc Server, run vnc-start"
 echo " "
 echo "Stop Vnc Server, run vnc-stop"
 echo " "
-echo " "
 
 rm browserfix.sh
 rm de-xfce.sh
 
-vncserver
+vnc-start
