@@ -66,7 +66,7 @@ exit
 - [x] Sound bug fix
 - [x] Browser bug fix
 
-Visit problem Ubuntu in : [Issues](https://github.com/wahasa/Ubuntu/issues/1)
+Visit problem Ubuntu in : [Issues](https://github.com/wahasa/Ubuntu/issues/5)
 
 -----------
 
