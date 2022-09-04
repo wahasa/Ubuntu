@@ -59,7 +59,7 @@ exit
 ```
 
 ---------
-
+- [x] Sound bug fix
 - [x] Browser bug fix
 
 Visit problem now in : [Issues](https://github.com/wahasa/Ubuntu/issues/5)
