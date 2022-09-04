@@ -33,17 +33,17 @@ on Ubuntu, run this command :
 apt update && apt upgrade
 ```
 
-* Install Ubuntu-xfce
+* Install Desktop-xfce
 
 ```
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-xfce.sh && chmod +x de-xfce.sh && ./de-xfce.sh
 ```
 
-> * Install Ubuntu-lxde
+> * Install Desktop-lxde
 
-> * Install Ubuntu-lxqt
+> * Install Desktop-lxqt
 
-> * Install Ubuntu-kde
+> * Install Desktop-kde
 
 
 3. Start Ubuntu
