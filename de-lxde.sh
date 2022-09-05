@@ -42,5 +42,6 @@ echo " "
 
 rm browserfix.sh
 rm de-lxde.sh
+mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak
 
 vncserver
