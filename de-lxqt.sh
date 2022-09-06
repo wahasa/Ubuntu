@@ -28,7 +28,7 @@ chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
 clear
 
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/browserfix.sh && chmod +x browserfix.sh && ./browserfix.sh
+#wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/browserfix.sh && chmod +x browserfix.sh && ./browserfix.sh
 
 clear
 echo " "
