@@ -39,12 +39,16 @@ apt update && apt upgrade
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-xfce.sh && chmod +x de-xfce.sh && ./de-xfce.sh
 ```
 
- * Install Desktop-lxde
+* Install Desktop-lxde
 ```
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-lxde.sh && chmod +x de-lxde.sh && ./de-lxde.sh
 ```
 
-> * Install Desktop-lxqt
+* Install Desktop-lxqt
+
+```
+apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-lxqt.sh && chmod +x de-lxqt.sh && ./de-lxqt.sh
+```
 
 > * Install Desktop-kde
 
