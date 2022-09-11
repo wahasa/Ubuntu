@@ -5,6 +5,7 @@ cp sources.list /root
 cd
 
 #echo "Adding Debian repo for Chromium installation"
+
 echo "deb http://ftp.debian.org/debian buster main
 deb http://ftp.debian.org/debian buster-updates main" >> /etc/apt/sources.list
 
