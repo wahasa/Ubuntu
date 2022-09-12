@@ -6,4 +6,6 @@ wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/oosplash?raw=
 
 chmod +x /usr/lib/libreoffice/program/oosplash
 mkdir /prod && mkdir /prod/version
+
 #echo "Patch has been applied successfully"
+rm libreofficefix.sh
