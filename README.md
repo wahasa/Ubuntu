@@ -18,11 +18,15 @@ Copy and paste this command to Termux :
 pkg update && pkg upgrade
 ```
 
-1. Ubuntu 22.10 (Kinetic Kudu)
-* Install Ubuntu
+1. Install Ubuntu
+* Ubuntu 22.10 (Kinetic)
 
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
+```
+* Ubuntu 22.04 (Jammy)
+```
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.04/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
 ```
 
 2. Desktop Environment
