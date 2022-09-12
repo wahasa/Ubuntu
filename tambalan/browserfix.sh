@@ -16,6 +16,7 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 112695A0E562B32A
 
 apt update && apt upgrade -y
 sudo apt install firefox-esr -y
+
 #sudo apt install chromium -y
 #sed -i 's/chromium %U/chromium --no-sandbox --test-type %U/g' /usr/share/applications/chromium.desktop
 
