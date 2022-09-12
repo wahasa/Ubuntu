@@ -4,7 +4,7 @@ pkg install proot -y
 
 termux-setup-storage
 
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/audiofix.sh && chmod +x audiofix.sh && ./audiofix.sh
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/audiofix.sh && chmod +x audiofix.sh && ./audiofix.sh
 
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
