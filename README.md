@@ -68,16 +68,10 @@ exit
 ---------
 - [x] Sound bug fix
 - [x] Browser bug fix
-- [x] Install Chromium
-```
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/chromiumfix.sh && chmod +x chromiumfix.sh && ./chromiumfix.sh
-```
-- [x] Install libreoffice
-```
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh && chmod +x libreofficefix.sh && ./libreofficefix.sh
-```
+- [x] Install Chromium [Click here](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243252084)
+- [x] Install libreoffice [Click here](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243256188)
 
-Visit problem now in : [Issues](https://github.com/wahasa/Ubuntu/issues/5)
+Visit problem now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
 -----------
 
