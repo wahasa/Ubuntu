@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 cd /etc/apt
 cp sources.list /root
 cd
@@ -22,3 +22,4 @@ sed -i 's/chromium %U/chromium --no-sandbox --test-type %U/g' /usr/share/applica
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
+rm chromiumfix.sh
