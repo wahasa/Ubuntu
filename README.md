@@ -66,6 +66,7 @@ exit
 ```
 
 ---------
+Note :
 - [x] Sound bug fix
 - [x] Browser bug fix
 - [x] Install Chromium [Click here](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243252084)
