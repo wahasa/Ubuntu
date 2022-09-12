@@ -8,33 +8,33 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/audiofix.sh && chmod +
 
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
-	first=1
-	echo "skipping downloading"
+        first=1
+        echo "skipping downloading"
 fi
 tarball="ubuntu-rootfs.tar.gz"
 if [ "$first" != 1 ];then
-	if [ ! -f $tarball ]; then
-		echo "Download Rootfs, this may take a while base on your internet speed."
-		case `dpkg --print-architecture` in
-		aarch64)
-			archurl="arm64" ;;
-		arm)
-			archurl="armhf" ;;
-		amd64)
-			archurl="amd64" ;;
-		x86_64)
-			archurl="amd64" ;;
-		*)
-			echo "unknown architecture"; exit 1 ;;
-		esac
-		wget "https://partner-images.canonical.com/core/kinetic/current/ubuntu-kinetic-core-cloudimg-${archurl}-root.tar.gz" -O $tarball
-	fi
-	cur=`pwd`
-	mkdir -p "$folder"
-	cd "$folder"
-	echo "Decompressing Rootfs, please be patient."
-	proot --link2symlink tar -xf ${cur}/${tarball}||:
-	cd "$cur"
+        if [ ! -f $tarball ]; then
+                echo "Download Rootfs, this may take a while base on your internet speed."
+                case `dpkg --print-architecture` in
+                aarch64)
+                        archurl="arm64" ;;
+                arm)
+                        archurl="armhf" ;;
+                amd64)
+                        archurl="amd64" ;;
+                x86_64)
+                        archurl="amd64" ;;
+                *)
+                        echo "unknown architecture"; exit 1 ;;
+                esac
+                wget "https://partner-images.canonical.com/core/kinetic/current/ubuntu-kinetic-core-cloudimg-${archurl}-root.tar.gz" -O $tarball
+        fi
+        cur=`pwd`
+        mkdir -p "$folder"
+        cd "$folder"
+        echo "Decompressing Rootfs, please be patient."
+        proot --link2symlink tar -xf ${cur}/${tarball}||:
+        cd "$cur"
    fi
    echo "localhost" > ~/"$folder"/etc/hostname
    echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
@@ -100,9 +100,9 @@ printf "#  8   8  8   8  8   8   8  8 8     8     8   8  #\n"
 printf "#  '888'  8888'  '888'   8  '88     8     '888'  #\n"
 printf "#                                                #\n"
 printf "##################################################\n"
-echo " "
-echo "Updating Ubuntu,.."
-echo " "
+  echo " "
+  echo "Updating Ubuntu,.."
+  echo " "
 echo "#!/bin/bash
 apt update && apt upgrade -y
 apt install apt-utils dialog nano -y
@@ -111,6 +111,6 @@ echo " "
 echo "You can now start Ubuntu with 'ubuntu' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
-bash $bin
-   rm install-ubuntu.sh
+   bash $bin
+   #rm install-ubuntu.sh
    rm audiofix.sh
