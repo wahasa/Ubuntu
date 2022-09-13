@@ -45,7 +45,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 
 * Install Desktop-lxde
 ```
-apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-lxde.sh && chmod +x de-lxde.sh && ./de-lxde.sh
+apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxde.sh && chmod +x de-lxde.sh && ./de-lxde.sh
 ```
 
 * Install Desktop-lxqt
