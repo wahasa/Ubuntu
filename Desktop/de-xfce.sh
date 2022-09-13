@@ -4,6 +4,7 @@
 apt-get update
 apt-get install udisks2 -y
 echo  " "  > /var/lib/dpkg/info/udisks2.postinst                                                                                                        apt-mark hold udisks2                                                                                                                                   apt-get install keyboard-configuration -y
+apt-mark hold udisks2
 apt-get install tzdata -y
 apt-get install sudo -y
 apt-get install xfce4 xfce4-goodies xfce4-terminal -y
