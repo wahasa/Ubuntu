@@ -44,4 +44,4 @@ echo " "
 rm browserfix.sh
 rm de-lxqt.sh
 
-vncserver
+vnc-start
