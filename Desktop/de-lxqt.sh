@@ -8,7 +8,7 @@ apt-mark hold udisks2
 apt-get install keyboard-configuration -y
 apt-get install tzdata -y
 apt-get install sudo -y
-apt-get install lxqt lxqt-config qterminal -y
+apt-get install lxqt qterminal -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
 ln -s /dev/null /etc/tmpfiles.d/journal-nocow.conf
 export USER=root
