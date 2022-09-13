@@ -40,7 +40,6 @@ echo "Start Vnc Server, run vnc-start"
 echo " "
 echo "Stop Vnc Server, run vnc-stop"
 echo " "
-echo " "
 
 rm browserfix.sh
 rm de-lxqt.sh
