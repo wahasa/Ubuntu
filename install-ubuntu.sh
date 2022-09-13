@@ -111,6 +111,7 @@ echo " "
 echo "You can now start Ubuntu with 'ubuntu' script next time"
 echo " "
 rm -rf ~/.bash_profile" > $folder/root/.bash_profile
-   bash $bin
+   
    rm install-ubuntu.sh
    rm audiofix.sh
+bash $bin
