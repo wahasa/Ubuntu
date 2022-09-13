@@ -23,3 +23,4 @@ sudo apt install firefox-esr -y
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
+rm firefox-esr.sh
