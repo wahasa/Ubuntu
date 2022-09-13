@@ -51,7 +51,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 * Install Desktop-lxqt
 
 ```
-apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/de-lxqt.sh && chmod +x de-lxqt.sh && ./de-lxqt.sh
+apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxqt.sh && chmod +x de-lxqt.sh && ./de-lxqt.sh
 ```
 
 > * Install Desktop-kde
