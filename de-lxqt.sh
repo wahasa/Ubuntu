@@ -4,13 +4,14 @@
 apt-get update
 apt-get install udisks2 -y
 echo  " "  > /var/lib/dpkg/info/udisks2.postinst
-dpkg --configure -a
 apt-mark hold udisks2
 apt-get install keyboard-configuration -y
 apt-get install tzdata -y
 apt-get install sudo -y
 apt-get install lxqt lxqt-config qterminal -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
+ln -s /dev/null /etc/tmpfiles.d/journal-nocow.conf
+export USER=root
 apt-get --fix-broken install
 apt-get clean
 
@@ -22,14 +23,15 @@ xrdb $HOME/.Xresources
 startlxqt" > ~/.vnc/xstartup
 echo "vncserver -geometry 1600x900 -name remote-desktop :1 -xstartup" > /usr/local/bin/vnc-start
 echo "vncserver -kill :1" > /usr/local/bin/vnc-stop
-
+clear
 chmod +x ~/.vnc/xstartup
 chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
-clear
 
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/browserfix.sh && chmod +x browserfix.sh && ./browserfix.sh
-
+echo " "
+echo "Installing browser,.."
+echo " "
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh && chmod +x browserfix.sh && ./browserfix.sh
 clear
 echo " "
 echo "Vnc Server address will run at 127.0.0.1:5901"
