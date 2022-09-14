@@ -8,7 +8,7 @@ apt-mark hold udisks2
 apt-get install keyboard-configuration -y
 apt-get install tzdata -y
 apt-get install sudo -y
-apt-get install kde-standard konsole -y
+apt-get install kde-plasma-desktop konsole -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
 ln -s /dev/null /etc/tmpfiles.d/journal-nocow.conf
 export USER=root
