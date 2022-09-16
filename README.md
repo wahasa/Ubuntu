@@ -1,11 +1,11 @@
 ## Ubuntu on Termux Android
 
----------
+---
 Warning :
 
 Especially for Android 12 there are several bugs, and for more details, please read in Official [Termux](https://github.com/termux/termux-app).
 
----------
+---
 • Install Apps on Android
 - [x] [Termux](https://github.com/termux/termux-app/releases)
 - [x] [Vnc Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
@@ -28,6 +28,8 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.04/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
 ```
+
+---
 
 2. Desktop Environment
 
@@ -59,6 +61,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh && chmod +x de-kde.sh && ./de-kde.sh
 ```
 
+---
 3. Start Ubuntu
 
 ```
@@ -71,7 +74,7 @@ ubuntu
 exit
 ```
 
----------
+---
 Note :
 - [x] Sound bug fix
 - [x] Browser bug fix
@@ -80,8 +83,7 @@ Note :
 
 Visit problem now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
------------
-
+---
 ## VNC Viewer
 
 1. Start VNC Server
@@ -116,4 +118,4 @@ on Ubuntu, run this command to stop :
 vnc-stop
 ```
 
--------------
+---
