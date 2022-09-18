@@ -10,8 +10,6 @@ apt-get install tzdata -y
 apt-get install sudo -y
 apt-get install mate-desktop-environment mate-terminal -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
-ln -s /dev/null /etc/tmpfiles.d/journal-nocow.conf
-export USER=root
 apt-get --fix-broken install
 apt-get clean
 
