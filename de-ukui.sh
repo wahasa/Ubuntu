@@ -8,7 +8,7 @@ apt-mark hold udisks2
 apt-get install keyboard-configuration -y
 apt-get install tzdata -y
 apt-get install sudo -y
-apt-get install ukui-desktop-environment ukui-terminal -y
+apt-get install ukui-desktop-environment -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
 apt-get --fix-broken install
 apt-get clean
