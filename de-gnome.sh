@@ -8,7 +8,7 @@ apt-mark hold udisks2
 apt-get install keyboard-configuration -y
 apt-get install tzdata -y
 apt-get install sudo -y
-apt-get install gnome-session-flashback gnome-terminal -y
+apt-get install gnome gnome-session-flashback -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
 apt-get --fix-broken install
 apt-get clean
@@ -18,8 +18,8 @@ mkdir -p ~/.vnc
 echo "#!/bin/bash
 export PULSE_SERVER=127.0.0.1
 xrdb $HOME/.Xresources
-gnome-panel &
-metacity &
+metacity
+gnome-panel
 gnome-flashback" > ~/.vnc/xstartup
 echo "vncserver -geometry 1600x900 -name remote-desktop :1 -xstartup" > /usr/local/bin/vnc-start
 echo "vncserver -kill :1" > /usr/local/bin/vnc-stop
@@ -32,6 +32,7 @@ echo " "
 echo "Installing browser,.."
 echo " "
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh && chmod +x browserfix.sh && ./browserfix.sh
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh && chmod +x libreofficefix.sh && ./libreofficefix.sh
 clear
 echo " "
 echo "Vnc Server address will run at 127.0.0.1:5901"
@@ -42,6 +43,7 @@ echo "Stop Vnc Server, run vnc-stop"
 echo " "
 
 rm browserfix.sh
-#rm de-mate.sh
+rm libreofficefix.sh
+rm de-gnome.sh
 
 vnc-start
