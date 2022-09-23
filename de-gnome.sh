@@ -43,7 +43,6 @@ echo "Stop Vnc Server, run vnc-stop"
 echo " "
 
 rm browserfix.sh
-rm libreofficefix.sh
 rm de-gnome.sh
 
 vnc-start
