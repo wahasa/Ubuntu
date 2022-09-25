@@ -3,7 +3,7 @@
 #Get the necessary components
 apt-get update
 apt-get install udisks2 -y
-echo  " "  > /var/lib/dpkg/info/udisks2.postinst
+echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 apt-get install keyboard-configuration -y
 apt-get install tzdata -y
