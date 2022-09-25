@@ -3,16 +3,14 @@
 #Get the necessary components
 apt-get update
 apt-get install udisks2 -y
-echo  " "  > /var/lib/dpkg/info/udisks2.postinst
+echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 apt-get install keyboard-configuration -y
 apt-get install tzdata -y
 apt-get install sudo -y
 apt-get install lxde lxterminal -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
-ln -s /dev/null /etc/tmpfiles.d/journal-nocow.conf
 mv /usr/bin/lxpolkit /usr/bin/lxpolkit.bak
-export USER=root
 apt-get --fix-broken install
 apt-get clean
 
