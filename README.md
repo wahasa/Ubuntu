@@ -31,7 +31,7 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 
 ---
 
-2. Desktop Environment
+2. [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
 
 on Ubuntu, run this command :
 
