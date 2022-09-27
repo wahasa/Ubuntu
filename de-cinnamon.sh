@@ -10,8 +10,8 @@ apt-get install tzdata -y
 apt-get install sudo -y
 apt-get install cinnamon-desktop-environment ubuntucinnamon-environment -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
-apt-get remove ubuntucinnamon-environment -y
 apt-get --fix-broken install
+apt-get remove firefox -y
 apt-get autoremove
 apt-get clean
 
