@@ -214,7 +214,7 @@ command+=" -b ${cur}/${folder}/proc/fakethings/version:/proc/version"
 ## uncomment the following line to have access to the home directory of termux
 #command+=" -b /data/data/com.termux/files/home:/root"
 ## uncomment the following line to mount /sdcard directly to /
-#command+=" -b /sdcard"
+command+=" -b /sdcard"
 command+=" -w /root"
 command+=" /usr/bin/env -i"
 command+=" MOZ_FAKE_NO_SANDBOX=1"
