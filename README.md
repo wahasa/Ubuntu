@@ -35,8 +35,21 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 ```
 
 ---
+2. Start Ubuntu
 
-2. [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
+```
+ubuntu
+```
+
+3. Stop Ubuntu
+
+```
+exit
+```
+
+---
+
+4. [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
 
 on Ubuntu, run this command :
 
@@ -66,18 +79,17 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh && chmod +x de-kde.sh && ./de-kde.sh
 ```
 
----
-3. Start Ubuntu
+* Install Desktop-cinnamon
+> In progress,.
 
-```
-ubuntu
-```
+* Install Desktop-ukui
+> In progress,.
 
-4. Stop Ubuntu
+* Install Desktop-mate
+> No Recommended
 
-```
-exit
-```
+* Install Desktop-gnome
+> No Recommended
 
 ---
 Note :
