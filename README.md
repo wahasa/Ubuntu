@@ -86,10 +86,10 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 > In progress,.
 
 * Install Desktop-mate
-> No Recommended
+> In progress,.
 
 * Install Desktop-gnome
-> No Recommended
+> In progress,.
 
 ---
 Note :
