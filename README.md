@@ -80,16 +80,16 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 ```
 
 * Install Desktop-cinnamon
-> In progress,.
+> In the process,.
 
 * Install Desktop-ukui
-> In progress,.
+> In the process,.
 
 * Install Desktop-mate
-> In progress,.
+> In the process,.
 
 * Install Desktop-gnome
-> In progress,.
+> In the process,.
 
 ---
 Note :
