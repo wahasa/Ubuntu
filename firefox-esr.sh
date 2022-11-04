@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 cp /etc/apt/sources.list ~/
 
 echo "Add Debian repo for Firefox-esr installation,.."
