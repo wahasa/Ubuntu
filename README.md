@@ -19,9 +19,8 @@ Especially for Android 12 there are several bugs, and for more details, please r
 
 Copy and paste this command to Termux :
 
-```
-pkg update && pkg upgrade
-```
+> pkg update && pkg upgrade
+
 
 1. Install Ubuntu
 * [Ubuntu 22.10 (Kinetic)](https://youtu.be/PmRJ2mLLh4U)
@@ -34,7 +33,6 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.04/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
 ```
 
----
 2. Start Ubuntu
 
 ```
@@ -53,9 +51,7 @@ exit
 
 on Ubuntu, run this command :
 
-```
-apt update && apt upgrade
-```
+> apt update && apt upgrade
 
 * [Install Desktop-xfce](https://youtu.be/yMxE2uq2hz8)
 
