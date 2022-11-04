@@ -1,7 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 pkg install root-repo x11-repo
 pkg install proot -y
-
 termux-setup-storage
 
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/audiofix.sh && chmod +x audiofix.sh && ./audiofix.sh
@@ -177,7 +176,6 @@ if [ ! -f "${cur}/${folder}/proc/fakethings/vmstat" ]; then
 	speculative_pgfault 221449963
 	EOF
 fi
-
 bin=.ubuntu
 linux=ubuntu
 echo "writing launch script"
@@ -212,7 +210,7 @@ command+=" -b ${cur}/${folder}/proc/fakethings/stat:/proc/stat"
 command+=" -b ${cur}/${folder}/proc/fakethings/vmstat:/proc/vmstat"
 command+=" -b ${cur}/${folder}/proc/fakethings/version:/proc/version"
 ## uncomment the following line to have access to the home directory of termux
-#command+=" -b /data/data/com.termux/files/home:/root"
+command+=" -b /data/data/com.termux/files/home:/root"
 ## uncomment the following line to mount /sdcard directly to /
 command+=" -b /sdcard"
 command+=" -w /root"
@@ -239,19 +237,10 @@ EOM
    chmod +x $PREFIX/bin/$linux
    echo "Removing image for some space"
    #rm $tarball
-clear
-printf "##################################################\n"
-printf "#                                                #\n"
-printf "#  8   8  8888,  8   8   88,  8  888'888  8   8  #\n"
-printf "#  8   8  8   8  8   8   8 8  8     8     8   8  #\n"
-printf "#  8   8  8888   8   8   8 88 8     8     8   8  #\n"
-printf "#  8   8  8   8  8   8   8  8 8     8     8   8  #\n"
-printf "#  '888'  8888'  '888'   8  '88     8     '888'  #\n"
-printf "#                                                #\n"
-printf "##################################################\n"
-  echo " "
-  echo "Updating Ubuntu,.."
-  echo " "
+   clear
+   echo " "
+   echo "Updating Ubuntu,.."
+   echo " "
 echo "#!/bin/bash
 apt update && apt upgrade -y
 apt install apt-utils dialog nano -y
