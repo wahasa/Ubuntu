@@ -38,7 +38,6 @@ if [ "$first" != 1 ];then
    echo "localhost" > ~/"$folder"/etc/hostname
    echo "127.0.0.1 localhost" > ~/"$folder"/etc/hosts
    echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
-
 mkdir -p $folder/binds
 bin=.ubuntu
 linux=ubuntu
