@@ -40,7 +40,7 @@ fi
   echo "nameserver 8.8.8.8" > ~/"$folder"/etc/resolv.conf
 
 mkdir -p $folder/binds
-mkdir -p ${folder}/proc/fakethings
+mkdir -p $folder/proc/fakethings
 
 if [ ! -f "${cur}/${folder}/proc/fakethings/stat" ]; then
 	cat <<- EOF > "${cur}/${folder}/proc/fakethings/stat"
