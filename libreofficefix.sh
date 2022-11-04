@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo apt install libreoffice -y
 rm -rf /usr/lib/libreoffice/program/oosplash
 
