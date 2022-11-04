@@ -1,11 +1,9 @@
 #!/bin/bash
 clear
-cd /etc/apt
-cp sources.list /root
-cd
+cp /etc/apt/sources.list ~/
 
 echo " "
-echo "Adding Debian repo for Chromium installation,.."
+echo "Add Debian repo for Chromium installation,.."
 echo " "
 
 echo "deb http://ftp.debian.org/debian buster main
@@ -17,11 +15,11 @@ apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AA8E81B4331F7F50
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 112695A0E562B32A
 
 apt update && apt upgrade -y
-#sudo apt install firefox-esr -y
 sudo apt install chromium -y
 
 sed -i 's/chromium %U/chromium --no-sandbox --test-type %U/g' /usr/share/applications/chromium.desktop
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
+
 rm chromiumfix.sh
