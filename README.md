@@ -75,7 +75,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh && chmod +x de-kde.sh && ./de-kde.sh
 ```
 
-* Install Desktop-ukui
+* [Install Desktop-ukui](https://youtu.be/bFvzghNFeDo)
 ```
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-ukui.sh && chmod +x de-ukui.sh && ./de-ukui.sh
 ```
