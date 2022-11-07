@@ -6,9 +6,9 @@
 ## Ubuntu on Termux Android
 
 ---
-Warning :
+Announcement :
 
-Especially for Android 12 there are several bugs, and for more details, please read in Official [Termux](https://github.com/termux/termux-app).
+for android 12 in [Termux v0.119.1](https://apkcombo.com/termux/com.termux/) fixed.
 
 ---
 • Install Apps on Android
@@ -75,10 +75,12 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh && chmod +x de-kde.sh && ./de-kde.sh
 ```
 
-* Install Desktop-cinnamon
-> In the process,.
-
 * Install Desktop-ukui
+```
+apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-ukui.sh && chmod +x de-ukui.sh && ./de-ukui.sh
+```
+
+* Install Desktop-cinnamon
 > In the process,.
 
 * Install Desktop-mate
