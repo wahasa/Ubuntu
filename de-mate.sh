@@ -15,8 +15,17 @@ apt-get clean
 mkdir -p ~/.vnc
 echo "#!/bin/bash
 export PULSE_SERVER=127.0.0.1
-xrdb $HOME/.Xresources
-mate-session" > ~/.vnc/xstartup
+export XKL_XMODMAP_DISABLE=1
+
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+
+xsetroot -solid grey
+x-window-manager &
+mate-session &" > ~/.vnc/xstartup
 echo "vncserver -geometry 1600x900 -name remote-desktop :1" > /usr/local/bin/vnc-start
 echo "vncserver -kill :1" > /usr/local/bin/vnc-stop
 clear
