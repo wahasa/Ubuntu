@@ -19,7 +19,7 @@ echo "#!/bin/bash
 export PULSE_SERVER=127.0.0.1
 xrdb $HOME/.Xresources
 cinnamon-session" > ~/.vnc/xstartup
-echo "vncserver -geometry 1600x900 -name remote-desktop :1 -xstartup" > /usr/local/bin/vnc-start
+echo "vncserver -geometry 1600x900 -name remote-desktop :1" > /usr/local/bin/vnc-start
 echo "vncserver -kill :1" > /usr/local/bin/vnc-stop
 clear
 chmod +x ~/.vnc/xstartup
