@@ -5,9 +5,7 @@ apt-get update
 apt-get install udisks2 -y
 echo  " "  > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
-apt-get install keyboard-configuration -y
-apt-get install tzdata -y
-apt-get install sudo -y
+apt-get install sudo tzdata -y
 apt-get install cinnamon-desktop-environment ubuntucinnamon-environment -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
 apt-get --fix-broken install
