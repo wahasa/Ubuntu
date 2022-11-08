@@ -60,5 +60,3 @@ echo " "
 
 rm browserfix.sh
 rm de-gnome.sh
-
-vnc-start
