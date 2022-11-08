@@ -58,5 +58,3 @@ echo " "
 
 rm browserfix.sh
 rm de-mate.sh
-
-vnc-start
