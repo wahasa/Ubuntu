@@ -6,7 +6,7 @@ apt-get install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 apt-get install sudo tzdata -y
-apt-get install mate-desktop-environment mate-terminal -y
+apt-get install ubuntu-mate-desktop mate-desktop-environment mate-terminal -y
 apt-get install tigervnc-standalone-server dbus-x11 -y
 apt-get --fix-broken install
 apt-get clean
@@ -26,10 +26,17 @@ unset DBUS_SESSION_BUS_ADDRESS
 xsetroot -solid grey
 x-window-manager &
 mate-session &" > ~/.vnc/xstartup
+
+echo "#!/bin/sh
+rm -rf /run/dbus/pid
+dbus-daemon --system
+dbus-launch
+DISPLAY=:1 $HOME/.vnc/xstartup" > /usr/local/bin/vncstart
 echo "vncserver -geometry 1600x900 -name remote-desktop :1" > /usr/local/bin/vnc-start
 echo "vncserver -kill :1" > /usr/local/bin/vnc-stop
 clear
 chmod +x ~/.vnc/xstartup
+chmod +x /usr/local/bin/vncstart
 chmod +x /usr/local/bin/vnc-start
 chmod +x /usr/local/bin/vnc-stop
 
