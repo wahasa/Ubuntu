@@ -24,7 +24,7 @@ unset DBUS_SESSION_BUS_ADDRESS
 [ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
 
 xsetroot -solid grey
-gnome-session --builtin --session=gnome-flashback-me>
+gnome-session --builtin --session=gnome-flashback-metacity --disable-acceleration-check --debug &
 gnome-panel &
 gnome-flashback &" > ~/.vnc/xstartup
 echo "#!/bin/sh
