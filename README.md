@@ -80,7 +80,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-ukui.sh && chmod +x de-ukui.sh && ./de-ukui.sh
 ```
 
-* Install Desktop-gnome
+* [Install Desktop-gnome](https://youtu.be/nhSNOZKgMzs)
 > [Click here](https://github.com/wahasa/Ubuntu/issues/10),.
 
 * Install Desktop-mate
