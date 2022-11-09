@@ -83,7 +83,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 * [Install Desktop-gnome](https://youtu.be/nhSNOZKgMzs)
 > [Click here](https://github.com/wahasa/Ubuntu/issues/10),.
 
-* Install Desktop-mate
+* [Install Desktop-mate](https://youtu.be/8CSHJLbWTt0)
 > [Click here](https://github.com/wahasa/Ubuntu/issues/10),.
 
 * [Install Desktop-cinnamon](https://github.com/wahasa/Ubuntu/issues/7#issuecomment-1264958208)
