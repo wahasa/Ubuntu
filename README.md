@@ -84,7 +84,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 > [Click here](https://github.com/wahasa/Ubuntu/issues/10),.
 
 * Install Desktop-mate
-> In the process,.
+> [Click here](https://github.com/wahasa/Ubuntu/issues/10),.
 
 * [Install Desktop-cinnamon](https://github.com/wahasa/Ubuntu/issues/7#issuecomment-1264958208)
 > No Recommended,.
