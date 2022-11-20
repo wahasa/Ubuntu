@@ -122,7 +122,7 @@ localhost:1
 
 Name
 ```
-Ubuntu 22
+Ubuntu Desktop
 ```
 
 To disconnect VNC Client, click (X) on the right.
