@@ -23,14 +23,20 @@ Copy and paste this command to Termux :
 
 
 1. Install Ubuntu
+
+* Ubuntu 23.04 (Lunar)
+```
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu23.04.sh && chmod +x ubuntu23.04.sh && ./ubuntu23.04.sh
+```
+
 * [Ubuntu 22.10 (Kinetic)](https://youtu.be/PmRJ2mLLh4U)
 
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.10.sh && chmod +x ubuntu22.10.sh && ./ubuntu22.10.sh
 ```
 * Ubuntu 22.04 (Jammy)
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/22.04/install-ubuntu.sh && chmod +x install-ubuntu.sh && ./install-ubuntu.sh
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.04.sh && chmod +x ubuntu22.04.sh && ./ubuntu22.04.sh
 ```
 
 2. Start Ubuntu
