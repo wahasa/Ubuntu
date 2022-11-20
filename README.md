@@ -34,10 +34,6 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/mai
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.10.sh && chmod +x ubuntu22.10.sh && ./ubuntu22.10.sh
 ```
-* Ubuntu 22.04 (Jammy)
-```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.04.sh && chmod +x ubuntu22.04.sh && ./ubuntu22.04.sh
-```
 
 2. Start Ubuntu
 
