@@ -8,7 +8,7 @@
 ---
 Announcement :
 
-for android 12 in [Termux v0.119.1](https://apkcombo.com/termux/com.termux/) fixed.
+For android 12 in [Termux v0.119.1](https://apkcombo.com/termux/com.termux/) fixed.
 
 ---
 • Install Apps on Android
