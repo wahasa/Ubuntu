@@ -83,10 +83,10 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 ```
 
 * Install Desktop-gnome
-> [Click here](https://github.com/wahasa/Ubuntu/issues/10),.
+> [Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
 
 * Install Desktop-mate
-> [Click here](https://github.com/wahasa/Ubuntu/issues/10),.
+> [Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
 
 * Install Desktop-cinnamon
 > [No Recommended,.](https://github.com/wahasa/Ubuntu/issues/7#issuecomment-1264958208)
@@ -95,8 +95,8 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 Note :
 - [x] Soundfix
 - [x] Browserfix
-- [x] Install Chromium [Click here](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243252084)
-- [x] Install LibreOffice [Click here](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243256188)
+- [x] Install Chromium [Click here,.](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243252084)
+- [x] Install LibreOffice [Click here,.](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243256188)
 
 Visit problem now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
