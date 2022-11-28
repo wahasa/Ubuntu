@@ -24,7 +24,7 @@ Copy and paste this command to Termux :
 
 1. Install Ubuntu
 
-* Ubuntu 23.04 (Lunar)
+* [Ubuntu 23.04 (Lunar)](https://youtu.be/8mnytrMVHOw)
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu23.04.sh && chmod +x ubuntu23.04.sh && ./ubuntu23.04.sh
 ```
