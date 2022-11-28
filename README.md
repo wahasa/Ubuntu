@@ -96,7 +96,7 @@ Note :
 - [x] Soundfix
 - [x] Browserfix
 - [x] Install Chromium [Click here](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243252084)
-- [x] Install Libre Office [Click here](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243256188)
+- [x] Install LibreOffice [Click here](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243256188)
 
 Visit problem now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
