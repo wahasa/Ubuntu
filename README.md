@@ -30,26 +30,34 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/mai
 ```
 
 * [Ubuntu 22.10 (Kinetic)](https://youtu.be/PmRJ2mLLh4U)
-
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.10.sh && chmod +x ubuntu22.10.sh && ./ubuntu22.10.sh
 ```
 
 2. Start Ubuntu
-
 ```
 ubuntu
 ```
 
 3. Stop Ubuntu
-
 ```
 exit
 ```
 
+---
+Basic commands
+> apt update
+
+> apt upgrade
+
+> apt search (pkg)
+
+> apt install (pkg)
+
+> apt autoremove (pkg)
 
 ---
-4. [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
+## [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
 
 on Ubuntu, run this command :
 > apt update && apt upgrade
@@ -74,7 +82,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh && chmod +x de-kde.sh && ./de-kde.sh
 ```
 
-* More List Desktop [Click here,.]
+* More List Desktop [Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
 
 ---
 Note :
