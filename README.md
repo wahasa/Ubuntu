@@ -45,12 +45,13 @@ exit
 ```
 
 ---
-Basic commands
-> apt update</br>
-> apt upgrade</br>
-> apt search (pkg)</br>
-> apt install (pkg)</br>
-> apt autoremove (pkg)</br>
+Basic commands Ubuntu
+> apt update : Update list package</br>
+> apt upgrade : Upgrade package</br>
+> apt search (pkg) : Search package</br>
+> apt install (pkg) : Install package</br>
+> apt autoremove (pkg) : Delete package</br>
+> apt -h : Help all commands
 
 ---
 ## [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
