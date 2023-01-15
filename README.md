@@ -46,15 +46,11 @@ exit
 
 ---
 Basic commands
-> apt update
-
-> apt upgrade
-
-> apt search (pkg)
-
-> apt install (pkg)
-
-> apt autoremove (pkg)
+> apt update</br>
+> apt upgrade</br>
+> apt search (pkg)</br>
+> apt install (pkg)</br>
+> apt autoremove (pkg)</br>
 
 ---
 ## [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
