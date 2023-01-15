@@ -18,9 +18,7 @@ For Android 12 problems in [Termux v0.119.1](https://apkcombo.com/id/termux/com.
 ## Installation
 
 Copy and paste this command to Termux :
-
 > pkg update && pkg upgrade
-
 
 1. Install Ubuntu
 
@@ -32,6 +30,11 @@ pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/mai
 * [Ubuntu 22.10 (Kinetic)](https://youtu.be/PmRJ2mLLh4U)
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.10.sh && chmod +x ubuntu22.10.sh && ./ubuntu22.10.sh
+```
+
+* Ubuntu 22.04 (Jammy)
+```
+pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.04.sh && chmod +x ubuntu22.04.sh && ./ubuntu22.04.sh
 ```
 
 2. Start Ubuntu
@@ -46,12 +49,12 @@ exit
 
 ---
 Basic commands Ubuntu
-> apt update : Update list package</br>
-> apt upgrade : Upgrade package</br>
-> apt search (pkg) : Search package</br>
-> apt install (pkg) : Install package</br>
-> apt autoremove (pkg) : Delete package</br>
-> apt -h : Help all commands
+> apt update : Update list package.</br>
+> apt upgrade : Upgrade package.</br>
+> apt search (pkg) : Search package.</br>
+> apt install (pkg) : Install package.</br>
+> apt autoremove (pkg) : Delete package.</br>
+> apt -h : Help all commands.
 
 ---
 ## [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
