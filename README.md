@@ -22,17 +22,20 @@ Copy and paste this command to Termux :
 
 1. Install Ubuntu
 
-* [Ubuntu 23.04 (Lunar)](https://youtu.be/8mnytrMVHOw)
+* [Ubuntu 23.04 (Lunar)](https://youtu.be/8mnytrMVHOw)</br>
+(Armhf/Arm64/Amd64)
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu23.04.sh && chmod +x ubuntu23.04.sh && ./ubuntu23.04.sh
 ```
 
-* [Ubuntu 22.10 (Kinetic)](https://youtu.be/PmRJ2mLLh4U)
+* [Ubuntu 22.10 (Kinetic)](https://youtu.be/PmRJ2mLLh4U)</br>
+(Armhf/Arm64/Amd64)
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.10.sh && chmod +x ubuntu22.10.sh && ./ubuntu22.10.sh
 ```
 
-* Ubuntu 22.04 (Jammy)
+* Ubuntu 22.04 (Jammy)</br>
+(Armhf/Arm64/Amd64)
 ```
 pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.04.sh && chmod +x ubuntu22.04.sh && ./ubuntu22.04.sh
 ```
@@ -77,7 +80,7 @@ apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxqt.sh && chmod +x de-lxqt.sh && ./de-lxqt.sh
 ```
 
-* [Install Desktop Kde-plasma](https://youtu.be/ZpJSMWh9y8c)
+* [Install Desktop Kde](https://youtu.be/ZpJSMWh9y8c)
 ```
 apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh && chmod +x de-kde.sh && ./de-kde.sh
 ```
