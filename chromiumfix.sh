@@ -1,11 +1,9 @@
 #!/bin/bash
 clear
 cp /etc/apt/sources.list ~/
-
-echo " "
-echo "Add Debian repo for Chromium installation,.."
-echo " "
-
+  echo " "
+  echo "Add Debian repo for Chromium installation,.."
+  echo " "
 echo "deb http://ftp.debian.org/debian buster main
 deb http://ftp.debian.org/debian buster-updates main" >> /etc/apt/sources.list
 
