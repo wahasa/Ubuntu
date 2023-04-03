@@ -5,4 +5,5 @@ Ubuntu Releases
 Source Rootfs
 - https://partner-images.canonical.com/oci
 - https://partner-images.canonical.com/core
+- https://cdimage.ubuntu.com/ubuntu-base
 - https://hub.docker.com/_/ubuntu
