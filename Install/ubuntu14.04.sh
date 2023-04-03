@@ -89,12 +89,12 @@ pulseaudio --start \
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
 #Repositories#
-echo "#Ubuntu Trusty Tahr
-deb http://ports.ubuntu.com/ubuntu-ports trusty main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports trusty-updates main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports trusty-security main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports trusty-proposed main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports trusty-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
+#echo "#Ubuntu Trusty Tahr
+#deb http://ports.ubuntu.com/ubuntu-ports trusty main restricted universe multiverse
+#deb http://ports.ubuntu.com/ubuntu-ports trusty-updates main restricted universe multiverse
+#deb http://ports.ubuntu.com/ubuntu-ports trusty-security main restricted universe multiverse
+#deb http://ports.ubuntu.com/ubuntu-ports trusty-proposed main restricted universe multiverse
+#deb http://ports.ubuntu.com/ubuntu-ports trusty-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
    clear
    echo " "
    echo "Updating Ubuntu,.."
