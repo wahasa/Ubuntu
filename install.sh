@@ -1,5 +1,4 @@
 #!/bin/bash
-rm ../usr/bin/install*
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/Install -P ../usr/bin/
 chmod +x ../usr/bin/Install
   echo ""
@@ -27,7 +26,7 @@ chmod +x ../usr/bin/Install
        sleep 1
   echo -n "."
        sleep 1
-rm ../usr/bin/install.*
+rm ../usr/bin/Install.*
 clear
 Install
 rm install.sh
