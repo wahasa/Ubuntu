@@ -1,0 +1,57 @@
+#!/bin/bash
+blk='\e[0;30m' red='\e[0;31m' grn='\e[0;32m' ylw='\e[0;33m'
+blu='\e[0;34m' pur='\e[0;35m' cyn='\e[0;36m' wht='\e[0;37m'
+clear
+case "$1" in
+	"")
+clear
+printf "${blu}Welcome To Ubuntu Termux For Android\n"
+printf "${red}> ${wht}https://github.com/wahasa/Ubuntu"
+printf "\n\n"
+printf "${ylw}• Ubuntu (Lunar Lobster)"
+printf "\n\n"
+printf "${blu}Name    ${red}: ${grn}ubuntu23.04\n"
+printf "${blu}Version ${red}: ${grn}23.04\n"
+printf "${blu}Status  ${red}: ${grn}pre-release\n"
+printf "${blu}Rootfs  ${red}: ${grn}armhf,arm64,amd64"
+printf "\n\n"
+printf "${ylw}• Ubuntu (Kinetic Kudu)"
+printf "\n\n"
+printf "${blu}Name    ${red}: ${grn}ubuntu22.10\n"
+printf "${blu}Version ${red}: ${grn}22.10\n"
+printf "${blu}Status  ${red}: ${grn}latest\n"
+printf "${blu}Rootfs  ${red}: ${grn}armhf,arm64,amd64"
+printf "\n\n"
+printf "${ylw}• Ubuntu (Jammy Jellyfish)"
+printf "\n\n"
+printf "${blu}Name    ${red}: ${grn}ubuntu22.04\n"
+printf "${blu}Version ${red}: ${grn}22.04.2 lts\n"
+printf "${blu}Status  ${red}: ${grn}latest\n"
+printf "${blu}Rootfs  ${red}: ${grn}armhf,arm64,amd64"
+printf "\n\n"
+printf "${ylw}• Ubuntu (Development)"
+printf "\n\n"
+printf "${blu}Name    ${red}: ${grn}ubuntudev\n"
+printf "${blu}Version ${red}: ${grn}next release\n"
+printf "${blu}Status  ${red}: ${grn}testing\n"
+printf "${blu}Rootfs  ${red}: ${grn}armhf,arm64,amd64"
+printf "\n\n"
+printf "${grn}To install run with : install <${blu}name${grn}>"
+printf "\n\n"
+	;;
+        "ubuntudev")
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu.sh ; chmod +x ubuntu.sh ; bash ubuntu.sh
+        ;;
+        "ubuntu23.04")
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.04.sh ; chmod +x ubuntu23.04.sh ; bash ubuntu23.04.sh
+        ;;
+        "ubuntu22.10")
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.10.sh ; chmod +x ubuntu22.10.sh ; bash ubuntu22.10.sh
+	;;
+        "ubuntu22.04")
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.04.sh ; chmod +x ubuntu22.04.sh ; bash ubuntu22.04.sh
+        ;;
+        *)
+	bash install
+        ;;
+esac
