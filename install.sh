@@ -1,4 +1,5 @@
 #!/bin/bash
+rm ../usr/bin/install*
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/Install ../usr/bin/
 chmod +x ../usr/bin/Install
   echo ""
