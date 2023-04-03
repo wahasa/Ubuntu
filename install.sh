@@ -1,6 +1,6 @@
 #!/bin/bash
-wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/install -P ../usr/bin/
-chmod +x ../usr/bin/install
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/Install -P ../usr/bin/
+chmod +x ../usr/bin/Install
   echo "Installation successful,."
   echo ""
       sleep 1
@@ -27,5 +27,5 @@ chmod +x ../usr/bin/install
        sleep 1
 rm ../usr/bin/install.*
 clear
-install
+Install
 rm install.sh
