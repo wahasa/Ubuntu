@@ -21,14 +21,11 @@ export DISPLAY=:1
 export PULSE_SERVER=127.0.0.1
 rm -rf /run/dbus/dbus.pid
 dbus-launch xfce4-session" > /usr/local/bin/vncstart
-clear
-chmod +x ~/.vnc/xstartup
-chmod +x /usr/local/bin/vncstart
-chmod +x /usr/local/bin/vnc-start
-chmod +x /usr/local/bin/vnc-stop
-   clear
    echo "vncserver -geometry 1600x900 -name remote-desktop :1" > /usr/local/bin/vnc-start
    echo "vncserver -kill :*" > /usr/local/bin/vnc-stop
+   chmod +x ~/.vnc/xstartup
+   chmod +x /usr/local/bin/*
+   clear
    echo ""
    echo "Installing Browser,.."
    echo ""
@@ -40,16 +37,16 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 0E98404D386FA1D9
 apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 605C66F00D6C9793
 apt update
 apt install firefox-esr -y
+
 echo 'user_pref("media.cubeb.sandbox", false);
 user_pref("security.sandbox.content.level", 0);' > /root/.mozilla/firefox/*.default-esr/user.js
+
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
    clear
    echo ""
    echo "Vnc Server address will run at 127.0.0.1:5901"
-   echo ""
    echo "Start Vnc Server, run vnc-start"
-   echo ""
    echo "Stop Vnc Server, run vnc-stop"
    echo ""
 rm de-xfce.sh
