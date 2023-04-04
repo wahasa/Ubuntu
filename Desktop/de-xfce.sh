@@ -39,7 +39,7 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 605C66F00D6C9793
 apt update
 apt install firefox-esr -y
 
-wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/user.js -O .mozilla/firefox/*.default-esr/
+wget -O $(find ~/.mozilla/firefox -name *.default-esr)/user.js https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/user.js
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
