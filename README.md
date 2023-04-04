@@ -20,34 +20,24 @@ For Android 12 problems in [Termux v0.119.1](https://apkcombo.com/id/termux/com.
 Copy and paste this command to Termux :
 > pkg update && pkg upgrade
 
-1. Install Ubuntu
-
-* [Ubuntu 23.04 (Lunar)](https://youtu.be/8mnytrMVHOw)</br>
-(Armhf/Arm64/Amd64)
+* Install Ubuntu
 ```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu23.04.sh && chmod +x ubuntu23.04.sh && ./ubuntu23.04.sh
+pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install.sh ; chmod +x install.sh ; ./install.sh
 ```
 
-* [Ubuntu 22.10 (Kinetic)](https://youtu.be/PmRJ2mLLh4U)</br>
-(Armhf/Arm64/Amd64)
-```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.10.sh && chmod +x ubuntu22.10.sh && ./ubuntu22.10.sh
-```
-
-* Ubuntu 22.04 (Jammy)</br>
-(Armhf/Arm64/Amd64)
-```
-pkg install wget -y && wget https://raw.githubusercontent.com/wahasa/Project/main/Linux/Ubuntu/ubuntu22.04.sh && chmod +x ubuntu22.04.sh && ./ubuntu22.04.sh
-```
-
-2. Start Ubuntu
+* Start Ubuntu
 ```
 ubuntu
 ```
 
-3. Stop Ubuntu
+* Stop Ubuntu
 ```
 exit
+```
+
+* Remove Ubuntu
+```
+rm -rf ubuntu-fs
 ```
 
 ---
@@ -60,29 +50,45 @@ Basic commands Ubuntu
 > apt -h : Help all commands.
 
 ---
-## [Desktop Environment](https://github.com/wahasa/Ubuntu/issues/7)
+## Desktop Environment
 
 on Ubuntu, run this command :
 > apt update && apt upgrade
 
-* [Install Desktop Xfce](https://youtu.be/yMxE2uq2hz8)
+<details></br>
+<summary><b><code>Install Desktop Xfce</code></b></summary>
+<p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/xfce.jpg"</p>
+</details>
+
 ```
-apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-xfce.sh && chmod +x de-xfce.sh && ./de-xfce.sh
+apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-xfce.sh ; chmod +x de-xfce.sh ; ./de-xfce.sh
 ```
 
-* [Install Desktop Lxde](https://youtu.be/SMHOkW3cv80)
+<details></br>
+<summary><b><code>Install Desktop Lxde</code></b></summary>
+<p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/lxde.jpg"</p>
+</details>
+
 ```
-apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxde.sh && chmod +x de-lxde.sh && ./de-lxde.sh
+apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxde.sh ; chmod +x de-lxde.sh ; ./de-lxde.sh
 ```
 
-* [Install Desktop Lxqt](https://youtu.be/JAfoc3zvlXc)
+<details></br>
+<summary><b><code>Install Desktop Lxqt</code></b></summary>
+<p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/lxqt.jpg"</p>
+</details>
+
 ```
-apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxqt.sh && chmod +x de-lxqt.sh && ./de-lxqt.sh
+apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxqt.sh ; chmod +x de-lxqt.sh ; ./de-lxqt.sh
 ```
 
-* [Install Desktop Kde](https://youtu.be/ZpJSMWh9y8c)
+<details></br>
+<summary><b><code>Install Desktop Kde</code></b></summary>
+<p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/kde.jpg"</p>
+</details>
+
 ```
-apt install wget -y && wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh && chmod +x de-kde.sh && ./de-kde.sh
+apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh ; chmod +x de-kde.sh ; ./de-kde.sh
 ```
 
 * More List Desktop [Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
