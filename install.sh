@@ -1,6 +1,6 @@
 #!/bin/bash
 rm ../usr/bin/Install*
-wget -P https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/Install ../usr/bin/
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/Install -P ../usr/bin/
 chmod +x ../usr/bin/Install
   echo ""
   echo "Installation successful,."
