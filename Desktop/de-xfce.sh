@@ -16,6 +16,7 @@ echo "#!/bin/bash
 export PULSE_SERVER=127.0.0.1
 xrdb $HOME/.Xresources
 startxfce4" > ~/.vnc/xstartup
+
 echo "#!/bin/sh
 export DISPLAY=:1
 export PULSE_SERVER=127.0.0.1
@@ -38,8 +39,7 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 605C66F00D6C9793
 apt update
 apt install firefox-esr -y
 
-echo 'user_pref("media.cubeb.sandbox", false);
-user_pref("security.sandbox.content.level", 0);' > /root/.mozilla/firefox/*.default-esr/user.js
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/user.js -O .mozilla/firefox/*.default-esr/
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
