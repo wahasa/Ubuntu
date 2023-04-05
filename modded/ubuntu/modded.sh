@@ -11,6 +11,7 @@ rm ~/.config/rofi/launchers/type-3/launcher.sh
 rm ~/.config/rofi/launchers/type-3/style-1.rasi
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/launcher.sh -P ~/.config/rofi/launchers/type-3/
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/style-1.rasi -P ~/.config/rofi/launchers/type-3/
+chmod +x ~/.config/rofi/launchers/type-3/launcher.sh
 rm -rf rofi
 
 #Panel
