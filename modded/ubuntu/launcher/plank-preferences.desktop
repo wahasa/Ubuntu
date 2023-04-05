@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Icon=plank
+Exec=plank --preferences
+Hidden=false
+NoDisplay=false
+Name=Plank Peferences
