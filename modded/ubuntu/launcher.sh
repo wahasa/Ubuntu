@@ -33,4 +33,8 @@ wget -q -P ~/.config/plank/dock1/launchers/
 wget -q -P ~/.config/plank/dock1/launchers/
 wget -q -P ~/.config/plank/dock1/launchers/
 
+#theme
+mkdir -p ~/.local/share/plank/themes
+mkdir -p ~/.local/share/plank/themes/Azeny
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/dock.theme -P ~/.local/share/plank/themes/Azeny/
 
