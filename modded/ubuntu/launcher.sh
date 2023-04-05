@@ -10,6 +10,14 @@ wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme
 wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/style-1.rasi -P ~/.config/rofi/launchers/type-3/
 rm rofi
 
+#Panel
+mkdir -p ~/.local/share/xfce4-panel-profiles
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/config.txt
+tar --sort=name --format ustar -cvjhf ubuntu.tar.bz2 config.txt
+mv ~/ubuntu.tar.bz2 ~/.local/share/xfce4-panel-profiles/
+dbus-launch xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/ubuntu.tar.bz2
+rm config.txt
+
 #Plank
 mkdir -p ~/.config/autostart
 wget -q https://github.com/wahasa/Ubuntu/raw/main/modded/ubuntu/menu.png -P ~/.local/share/icons/
