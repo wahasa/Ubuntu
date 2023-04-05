@@ -42,6 +42,12 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/do
 cat ~/dock.ini | dbus-launch dconf load  /net/launchpad/plank/docks/dock1/
 rm dock.ini
 
+dbus-launch xfconf-query -c xfce4-desktop -np '/desktop-icons/style' -t 'int' -s '0'
+dbus-launch xfconf-query -c xsettings -p /Net/ThemeName -s "Yaru-magenta-dark"
+dbus-launch xfconf-query -c xfwm4 -p /general/theme -s "Yaru-dark"
+dbus-launch xfconf-query -c xsettings -p /Net/IconThemeName -s  "Yaru-magenta-dark"
+dbus-launch xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "Yaru-dark"
+dbus-launch xfconf-query -c xfwm4 -p /general/show_dock_shadow -s false
 dbus-launch xfconf-query -c xfce4-desktop -p $(dbus-launch xfconf-query -c xfce4-desktop -l | grep last-image) -s /usr/share/backgrounds/warty-final-ubuntu.png
 
 rm modded.sh
