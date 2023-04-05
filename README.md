@@ -91,7 +91,11 @@ apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh ; chmod +x de-kde.sh ; ./de-kde.sh
 ```
 
-* More List Desktop [Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
+<details></br>
+<summary><b><code>More List Desktop</code></b></summary>
+</details>
+
+[Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
 
 ---
 Note :
