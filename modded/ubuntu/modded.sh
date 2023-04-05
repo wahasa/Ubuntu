@@ -7,9 +7,11 @@ apt install yaru-theme-gtk yaru-theme-icon ubuntu-wallpapers -y
 git clone --depth=1 https://github.com/adi1090x/rofi.git
 cd rofi ; ./setup.sh ; cd
 rm ~/.config/rofi/config.rasi
-wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/launcher.sh -P ~/.config/rofi/launchers/type-3/
-wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/style-1.rasi -P ~/.config/rofi/launchers/type-3/
-rm rofi
+rm ~/.config/rofi/launchers/type-3/launcher.sh
+rm ~/.config/rofi/launchers/type-3/style-1.rasi
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/launcher.sh -P ~/.config/rofi/launchers/type-3/
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/style-1.rasi -P ~/.config/rofi/launchers/type-3/
+rm -rf rofi
 
 #Panel
 mkdir -p ~/.local/share/xfce4-panel-profiles
