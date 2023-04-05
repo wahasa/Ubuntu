@@ -1,6 +1,7 @@
 #!/bin/bash
-apt install git -y
-apt install plank rofi -y
+apt install git gedit plank rofi -y
+apt install dconf-cli xfce4-panel-profiles xfce4-appmenu-plugin -y
+apt install yaru-theme-gtk yaru-theme-icon ubuntu-wallpapers -y
 
 #Rofi
 git clone --depth=1 https://github.com/adi1090x/rofi.git
