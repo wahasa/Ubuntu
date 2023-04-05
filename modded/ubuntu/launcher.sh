@@ -38,4 +38,8 @@ wget -q -P ~/.config/plank/dock1/launchers/
 mkdir -p ~/.local/share/plank/themes
 mkdir -p ~/.local/share/plank/themes/Azeny
 wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/dock.theme -P ~/.local/share/plank/themes/Azeny/
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/dock.ini
+cat ~/dock.ini | dbus-launch dconf load  /net/launchpad/plank/docks/dock1/
+rm dock.ini
 
+dbus-launch xfconf-query -c xfce4-desktop -p $(dbus-launch xfconf-query -c xfce4-desktop -l | grep last-image) -s /usr/share/backgrounds/warty-final-ubuntu.png
