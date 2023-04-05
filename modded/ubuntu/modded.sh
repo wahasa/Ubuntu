@@ -27,12 +27,12 @@ wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launc
 wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/plank-preferences.desktop -P /usr/share/applications/
 mkdir -p ~/.config/plank/dock1
 mkdir -p ~/.config/plank/dock1/launchers
-wget -q -P ~/.config/plank/dock1/launchers/
-wget -q -P ~/.config/plank/dock1/launchers/
-wget -q -P ~/.config/plank/dock1/launchers/
-wget -q -P ~/.config/plank/dock1/launchers/
-wget -q -P ~/.config/plank/dock1/launchers/
-wget -q -P ~/.config/plank/dock1/launchers/
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/firefox-esr.dockitem -P ~/.config/plank/dock1/launchers/
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/rofi-launcher.dockitem -P ~/.config/plank/dock1/launchers/
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/org.gnome.gedit.dockitem -P ~/.config/plank/dock1/launchers/
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/plank-preferences.dockitem -P ~/.config/plank/dock1/launchers/
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/org.gnome.Nautilus.dockitem -P ~/.config/plank/dock1/launchers/
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/org.gnome.Terminal.dockitem -P ~/.config/plank/dock1/launchers/
 
 #theme
 mkdir -p ~/.local/share/plank/themes
@@ -43,3 +43,5 @@ cat ~/dock.ini | dbus-launch dconf load  /net/launchpad/plank/docks/dock1/
 rm dock.ini
 
 dbus-launch xfconf-query -c xfce4-desktop -p $(dbus-launch xfconf-query -c xfce4-desktop -l | grep last-image) -s /usr/share/backgrounds/warty-final-ubuntu.png
+
+rm modded.sh
