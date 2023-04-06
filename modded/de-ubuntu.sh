@@ -45,6 +45,12 @@ rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
    clear
    echo ""
+   echo "Installing Modded,.."
+   echo ""
+#Ubuntu Modded#
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/modded.sh ; chmod +x modded.sh ; ./modded.sh
+   clear
+   echo ""
    echo "Vnc Server address will run at 127.0.0.1:5901"
    echo "Start Vnc Server, run vnc-start"
    echo "Stop Vnc Server, run vnc-stop"
