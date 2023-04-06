@@ -93,9 +93,18 @@ apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 
 <details></br>
 <summary><b><code>More List Desktop</code></b></summary>
+Warning :</br>
+It is not recommended to install because there are some problems.
 </details>
 
 [Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
+
+</br><b>Modded Version</b>
+
+<details></br>
+<summary><b><code>Install Ubuntu Desktop</code></b></summary>
+<p align="center"><img src="https://github.com/wahasa/Ubuntu/raw/main/modded/ubuntu/ubuntu.jpg"</p>
+</details>
 
 ---
 Note :
