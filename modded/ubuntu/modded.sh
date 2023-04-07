@@ -12,6 +12,7 @@ rm ~/.config/rofi/launchers/type-3/style-1.rasi
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/launcher.sh -P ~/.config/rofi/launchers/type-3/
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/style-1.rasi -P ~/.config/rofi/launchers/type-3/
 chmod +x ~/.config/rofi/launchers/type-3/launcher.sh
+vnc-start ; sleep 5 ; vnc-stop
 rm -rf rofi
 
 #Panel
@@ -20,6 +21,7 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/co
 tar --sort=name --format ustar -cvjhf ubuntu.tar.bz2 config.txt
 mv ~/ubuntu.tar.bz2 ~/.local/share/xfce4-panel-profiles/
 dbus-launch xfce4-panel-profiles load ~/.local/share/xfce4-panel-profiles/ubuntu.tar.bz2
+vnc-start ; sleep 5 ; vnc-stop
 rm config.txt
 
 #Plank
@@ -36,6 +38,7 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/plank-preferences.dockitem -P ~/.config/plank/dock1/launchers/
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/org.gnome.Nautilus.dockitem -P ~/.config/plank/dock1/launchers/
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/launcher/org.gnome.Terminal.dockitem -P ~/.config/plank/dock1/launchers/
+vnc-start ; sleep 5 ; vnc-stop
 
 #theme
 mkdir -p ~/.local/share/plank/themes
@@ -43,14 +46,23 @@ mkdir -p ~/.local/share/plank/themes/Azeny
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/dock.theme -P ~/.local/share/plank/themes/Azeny/
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/theme/dock.ini
 cat ~/dock.ini | dbus-launch dconf load  /net/launchpad/plank/docks/dock1/
+vnc-start ; sleep 5 ; vnc-stop
 rm dock.ini
 
+sleep 2
 dbus-launch xfconf-query -c xfce4-desktop -np '/desktop-icons/style' -t 'int' -s '0'
+sleep 5
 dbus-launch xfconf-query -c xsettings -p /Net/ThemeName -s "Yaru-magenta-dark"
+sleep 5
 dbus-launch xfconf-query -c xfwm4 -p /general/theme -s "Yaru-dark"
+sleep 5
 dbus-launch xfconf-query -c xsettings -p /Net/IconThemeName -s  "Yaru-magenta-dark"
+sleep 5
 dbus-launch xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "Yaru-dark"
+sleep 5
 dbus-launch xfconf-query -c xfwm4 -p /general/show_dock_shadow -s false
+sleep 5
 dbus-launch xfconf-query -c xfce4-desktop -p $(dbus-launch xfconf-query -c xfce4-desktop -l | grep last-image) -s /usr/share/backgrounds/warty-final-ubuntu.png
-
+sleep 5
+vnc-start ; sleep 5 ; vnc-stop
 rm modded.sh
