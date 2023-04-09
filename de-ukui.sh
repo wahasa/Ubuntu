@@ -30,6 +30,7 @@ dbus-launch ukui-session" > /usr/local/bin/vncstart
    echo ""
    echo "Installing Browser,.."
    echo ""
+#Browser Fix#
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh
    clear
    echo ""
@@ -37,4 +38,5 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh ; 
    echo "Start Vnc Server, run vnc-start"
    echo "Stop Vnc Server, run vnc-stop"
    echo ""
+rm browserfix.sh
 rm de-ukui.sh
