@@ -34,6 +34,7 @@ gnome-flashback &" > /usr/local/bin/vncstart
    echo ""
    echo "Installing Browser,.."
    echo ""
+#Browser Fix#
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; chmod +x libreofficefix.sh ; ./libreofficefix.sh
    clear
@@ -46,4 +47,5 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; ch
    echo "Start Vnc, run vncstart"
    echo "Exit  Vnc, run ctrl+c"
    echo ""
+rm browserfix.sh
 rm de-budgie.sh
