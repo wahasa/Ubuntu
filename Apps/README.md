@@ -130,7 +130,7 @@ apt install vim
 
 > github.com/microsoft/vscode
 ```
-wget
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/vscodefix.sh ; chmod +x vscodefix.sh ; ./vscodefix.sh
 ```
 </details>
 </br>
