@@ -13,7 +13,6 @@ The application cannot be opened.
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/blender.jpg">
 
 > github.com/blender
-
 ```
 apt install blender
 ```
@@ -25,6 +24,9 @@ apt install blender
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/chromium.jpg">
 
 > github.com/chromium/chromium
+```
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/chromiumfix.sh ; chmod +x chromiumfix.sh ; ./chromiumfix.sh
+``
 </details>
 
 
@@ -33,6 +35,9 @@ apt install blender
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/firefox.jpg">
 
 > github.com/mozilla
+```
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh ; rm browserfix.sh
+``
 </details>
 
 
@@ -51,7 +56,6 @@ apt install gnome-games
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/gedit.jpg">
 
 > github.com/GNOME/gedit
-
 ```
 apt install gedit
 ```
@@ -63,7 +67,6 @@ apt install gedit
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/gimp.jpg">
 
 > github.com/snapcrafters/gimp
-
 ```
 apt install gimp
 ```
@@ -75,6 +78,9 @@ apt install gimp
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/libreoffice.jpg">
 
 > github.com/libreoffice
+```
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; chmod +x libreofficefix.sh ; ./libreofficefix.sh
+```
 </details>
 
 
@@ -83,7 +89,6 @@ apt install gimp
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/obs.jpg">
 
 > github.com/obsproject/obs-studio
-
 ```
 apt install obs-studio
 ```
