@@ -1,3 +1,5 @@
+List Applications
+
 <details>
 <summary><code><b>Audacity</b></code></summary>
 
@@ -90,3 +92,9 @@ apt install vim
 wget
 ```
 </details>
+</br>
+
+---
+<p align="center">Good Luck</p>
+
+---
