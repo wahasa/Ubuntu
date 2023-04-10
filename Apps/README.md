@@ -79,6 +79,18 @@ apt install gimp
 
 
 <details>
+<summary><code><b>OBS Studio</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/obs.jpg">
+
+> github.com/obsproject/obs-studio
+
+```
+apt install obs-studio
+```
+</details>
+
+
+<details>
 <summary><code><b>Pi-Apps</b></code></summary>
 
 > github.com/Botspot/pi-apps
