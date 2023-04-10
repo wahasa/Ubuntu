@@ -116,6 +116,7 @@ Note :
 - [x] Browser fix
 - [x] Install Chromium [Click here,.](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243252084)
 - [x] Install LibreOffice [Click here,.](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243256188)
+- [x] Install Applications [Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Apps)
 
 Visit problems now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
