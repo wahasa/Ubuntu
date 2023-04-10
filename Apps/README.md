@@ -47,6 +47,30 @@ apt install gnome-games
 
 
 <details>
+<summary><code><b>Gedit</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/gedit.jpg">
+
+> github.com/GNOME/gedit
+
+```
+apt install gedit
+```
+</details>
+
+
+<details>
+<summary><code><b>GIMP</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/gimp.jpg">
+
+> github.com/snapcrafters/gimp
+
+```
+apt install gimp
+```
+</details>
+
+
+<details>
 <summary><code><b>LibreOffice</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/libreoffice.jpg">
 
