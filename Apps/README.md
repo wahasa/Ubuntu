@@ -8,8 +8,10 @@ The application cannot be opened.
 
 <details>
 <summary><code><b>Blender</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/blender.jpg">
 
 > github.com/blender
+
 ```
 apt install blender
 ```
@@ -18,12 +20,16 @@ apt install blender
 
 <details>
 <summary><code><b>Chromium</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/chromium.jpg">
+
 > github.com/chromium/chromium
 </details>
 
 
 <details>
 <summary><code><b>Firefox-Esr</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/firefox.jpg">
+
 > github.com/mozilla
 </details>
 
@@ -40,6 +46,8 @@ apt install gnome-games
 
 <details>
 <summary><code><b>LibreOffice</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/libreoffice.jpg">
+
 > github.com/libreoffice
 </details>
 
@@ -64,6 +72,7 @@ The application cannot be opened.
 
 <details>
 <summary><code><b>Vim Editor</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/vim.jpg">
 
 > github.com/vim/vim
 ```
@@ -74,6 +83,7 @@ apt install vim
 
 <details>
 <summary><code><b>VS Code</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/vscode.jpg">
 
 > github.com/microsoft/vscode
 ```
