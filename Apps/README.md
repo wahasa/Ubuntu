@@ -26,7 +26,7 @@ apt install blender
 > github.com/chromium/chromium
 ```
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/chromiumfix.sh ; chmod +x chromiumfix.sh ; ./chromiumfix.sh
-``
+```
 </details>
 
 
@@ -37,7 +37,7 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/chromiumfix.sh ; chmod
 > github.com/mozilla
 ```
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh ; rm browserfix.sh
-``
+```
 </details>
 
 
