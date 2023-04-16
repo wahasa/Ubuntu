@@ -14,10 +14,10 @@ if [ "$first" != 1 ];then
                 case `dpkg --print-architecture` in
                 aarch64)
                         archurl="arm64" ;;
-                arm)
+                arm*)
                         archurl="armhf" ;;
-                amd64)
-                        archurl="amd64" ;;
+                ppc64el)
+                        archurl="ppc64el" ;;
                 x86_64)
                         archurl="amd64" ;;
                 *)
@@ -81,14 +81,14 @@ EOM
    chmod +x $bin
    #Removing image for some space"
    rm $tarball
-#Sound Fix#
+#Sound Fix
 echo '#!/bin/bash
 pulseaudio --start \
     --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" \
     --exit-idle-time=-1
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
-#Repositories#
+#Repositories
 echo "#Ubuntu Lunar Lobster
 deb http://ports.ubuntu.com/ubuntu-ports lunar main restricted universe multiverse
 deb http://ports.ubuntu.com/ubuntu-ports lunar-updates main restricted universe multiverse
