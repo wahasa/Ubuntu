@@ -99,17 +99,6 @@ It is not recommended to install because there are some problems.
 
 [Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
 
-</br><b>Modded Version</b>
-
-<details></br>
-<summary><b><code>Install Ubuntu Desktop</code></b></summary>
-<p align="center"><img src="https://github.com/wahasa/Ubuntu/raw/main/modded/ubuntu/ubuntu.jpg"</p>
-</details>
-
-```
-apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/de-ubuntu.sh ; chmod +x de-ubuntu.sh ; ./de-ubuntu.sh
-```
-
 ---
 Note :
 - [x] Sound fix
