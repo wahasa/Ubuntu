@@ -107,6 +107,13 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; ch
 
 
 <details>
+<summary><code><b>Notepadqq</b></code></summary>
+
+The application cannot be opened.
+</details>
+
+
+<details>
 <summary><code><b>OBS Studio</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/obs.jpg">
 
@@ -114,13 +121,6 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; ch
 ```
 apt install obs-studio
 ```
-</details>
-
-
-<details>
-<summary><code><b>Notepadqq</b></code></summary>
-
-The application cannot be opened.
 </details>
 
 
