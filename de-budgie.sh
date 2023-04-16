@@ -34,7 +34,7 @@ gnome-flashback &" > /usr/local/bin/vncstart
    echo ""
    echo "Installing Browser,.."
    echo ""
-#Browser Fix#
+#Browser Fix
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; chmod +x libreofficefix.sh ; ./libreofficefix.sh
    clear
