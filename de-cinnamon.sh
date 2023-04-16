@@ -30,7 +30,7 @@ dbus-launch cinnamon-session" > /usr/local/bin/vncstart
    echo ""
    echo "Installing Browser,.."
    echo ""
-#Browser Fix#
+#Browser Fix
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh
    clear
    echo ""
