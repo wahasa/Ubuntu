@@ -53,6 +53,7 @@ apt install gnome-games
 
 <details>
 <summary><code><b>Gdebi Installer</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/gdebi.jpg">
 
 > github.com/linuxmint/gdebi
 ```
