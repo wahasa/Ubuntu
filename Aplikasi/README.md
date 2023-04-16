@@ -52,6 +52,16 @@ apt install gnome-games
 
 
 <details>
+<summary><code><b>Gdebi Installer</b></code></summary>
+
+> github.com/linuxmint/gdebi
+```
+apt install gdebi
+```
+</details>
+
+
+<details>
 <summary><code><b>Gedit</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/gedit.jpg">
 
