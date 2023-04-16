@@ -30,7 +30,7 @@ dbus-launch xfce4-session" > /usr/local/bin/vncstart
    echo ""
    echo "Installing Browser,.."
    echo ""
-#Browser Fix#
+#Browser Fix
 cp /etc/apt/sources.list ~/
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/passwd -P .vnc/
 echo "deb http://ftp.debian.org/debian stable main contrib non-free" >> /etc/apt/sources.list
