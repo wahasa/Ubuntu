@@ -74,6 +74,17 @@ apt install gimp
 
 
 <details>
+<summary><code><b>Krita</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/krita.jpg">
+
+> github.com/KDE/krita
+```
+apt install krita
+```
+</details>
+
+
+<details>
 <summary><code><b>LibreOffice</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/libreoffice.jpg">
 
@@ -101,6 +112,17 @@ apt install obs-studio
 > github.com/Botspot/pi-apps
 
 The application crached.
+</details>
+
+
+<details>
+<summary><code><b>Thunderbird</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/thunderbird.jpg">
+
+> github.com/mozilla-comm
+```
+apt install thunderbird
+```
 </details>
 
 
