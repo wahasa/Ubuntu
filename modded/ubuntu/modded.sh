@@ -1,6 +1,6 @@
 #!/bin/bash
 apt install git gedit plank rofi -y
-apt install dconf-cli xfce4-panel-profiles xfce4-appmenu-plugin -y
+apt install xfce4-panel-profiles xfce4-appmenu-plugin -y
 apt install yaru-theme-gtk yaru-theme-icon ubuntu-wallpapers -y
 
 #Rofi
