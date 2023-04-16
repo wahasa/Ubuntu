@@ -8,6 +8,7 @@ List Applications
 The application cannot be opened.
 </details>
 
+
 <details>
 <summary><code><b>Blender</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/blender.jpg">
