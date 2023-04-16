@@ -74,6 +74,17 @@ apt install gimp
 
 
 <details>
+<summary><code><b>Inkscape</b></code></summary>
+<img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/Inkscape.jpg">
+
+> github.com/inkscape/inkscape
+```
+apt install inkscape
+```
+</details>
+
+
+<details>
 <summary><code><b>Krita</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/krita.jpg">
 
@@ -103,6 +114,13 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; ch
 ```
 apt install obs-studio
 ```
+</details>
+
+
+<details>
+<summary><code><b>Notepadqq</b></code></summary>
+
+The application cannot be opened.
 </details>
 
 
