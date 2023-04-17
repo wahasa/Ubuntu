@@ -64,7 +64,7 @@ dbus-launch xfconf-query -c xsettings -p /Net/ThemeName -s "Yaru-magenta-dark"
 sleep 2
 dbus-launch xfconf-query -c xfwm4 -p /general/theme -s "Yaru-dark"
 sleep 2
-dbus-launch xfconf-query -c xsettings -p /Net/IconThemeName -s  "Yaru-magenta-dark"
+dbus-launch xfconf-query -c xsettings -p /Net/IconThemeName -s "Yaru-magenta-dark"
 sleep 2
 dbus-launch xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "Yaru-dark"
 sleep 2
