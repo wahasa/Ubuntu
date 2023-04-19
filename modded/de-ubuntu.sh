@@ -51,6 +51,7 @@ wget -O $(find ~/.mozilla/firefox -name *.default-esr)/user.js https://raw.githu
 
 rm -rf /etc/apt/sources.list
 mv sources.list /etc/apt/
+rm .vnc/passwd
    clear
    echo ""
    echo "Installing Modded,.."
@@ -63,5 +64,4 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/modded/ubuntu/modded.s
    echo "Start Vnc Server, run vnc-start"
    echo "Stop Vnc Server, run vnc-stop"
    echo ""
-rm .vnc/passwd
 rm de-ubuntu.sh
