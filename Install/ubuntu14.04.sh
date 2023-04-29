@@ -13,7 +13,10 @@ if [ "$first" != 1 ];then
                 echo "Download Rootfs, this may take a while base on your internet speed."
                 case `dpkg --print-architecture` in
                 aarch64)
-                        archurl="arm64" ;;
+                        archurl="armhf" ;
+                        wget https://github.com/multiarch/qemu-user-static/releases/download/v7.2.0-1/qemu-arm-static;
+			chmod 777 qemu-arm-static;
+			mv qemu-arm-static ~/../usr/bin ;;
                 arm*)
                         archurl="armhf" ;;
                 ppc64el)
@@ -89,7 +92,7 @@ pulseaudio --start \
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
 #Repositories
-echo "#Ubuntu Jammy Jellyfish
+echo "#Ubuntu (Trusty Tahr)
 deb http://ports.ubuntu.com/ubuntu-ports trusty main restricted universe multiverse
 deb http://ports.ubuntu.com/ubuntu-ports trusty-updates main restricted universe multiverse
 deb http://ports.ubuntu.com/ubuntu-ports trusty-security main restricted universe multiverse
