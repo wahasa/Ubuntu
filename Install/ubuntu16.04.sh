@@ -2,6 +2,7 @@
 pkg install root-repo x11-repo
 pkg install proot pulseaudio -y
 termux-setup-storage
+ubuntu=xenial
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
         first=1
@@ -23,7 +24,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://partner-images.canonical.com/core/xenial/current/ubuntu-xenial-core-cloudimg-${archurl}-root.tar.gz" -O $tarball
+                wget "https://partner-images.canonical.com/core/${ubuntu}/current/ubuntu-${ubuntu}-core-cloudimg-${archurl}-root.tar.gz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
@@ -88,13 +89,6 @@ pulseaudio --start \
     --exit-idle-time=-1
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
-#Repositories
-echo "#Ubuntu Jammy Jellyfish
-deb http://ports.ubuntu.com/ubuntu-ports xenial main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports xenial-updates main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports xenial-security main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports xenial-proposed main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports xenial-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
    clear
    echo " "
    echo "Updating Ubuntu,.."
