@@ -2,6 +2,7 @@
 pkg install root-repo x11-repo
 pkg install proot pulseaudio -y
 termux-setup-storage
+ubuntu=trusty
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
         first=1
@@ -26,7 +27,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://partner-images.canonical.com/core/trusty/current/ubuntu-trusty-core-cloudimg-${archurl}-root.tar.gz" -O $tarball
+                wget "https://partner-images.canonical.com/core/${ubuntu}/current/ubuntu-${ubuntu}-core-cloudimg-${archurl}-root.tar.gz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
@@ -91,17 +92,10 @@ pulseaudio --start \
     --exit-idle-time=-1
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
-#Repositories
-echo "#Ubuntu (Trusty Tahr)
-deb http://ports.ubuntu.com/ubuntu-ports trusty main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports trusty-updates main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports trusty-security main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports trusty-proposed main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports trusty-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
    clear
-   echo " "
+   echo ""
    echo "Updating Ubuntu,.."
-   echo " "
+   echo ""
 echo "#!/bin/bash
 touch ~/.hushlogin
 apt update && apt upgrade -y
