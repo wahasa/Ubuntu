@@ -90,9 +90,9 @@ pulseaudio --start \
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
    clear
-   echo " "
+   echo ""
    echo "Updating Ubuntu,.."
-   echo " "
+   echo ""
 echo "#!/bin/bash
 touch ~/.hushlogin
 apt update && apt upgrade -y
@@ -105,3 +105,4 @@ bash $linux
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
 rm ubuntu16.04.sh
+#
