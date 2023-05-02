@@ -2,6 +2,7 @@
 pkg install root-repo x11-repo
 pkg install proot pulseaudio -y
 termux-setup-storage
+ubuntu=lunar
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
         first=1
@@ -23,7 +24,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://partner-images.canonical.com/oci/lunar/current/ubuntu-lunar-oci-${archurl}-root.tar.gz" -O $tarball
+                wget "https://partner-images.canonical.com/oci/${ubuntu}/current/ubuntu-${ubuntu}-oci-${archurl}-root.tar.gz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
@@ -96,9 +97,9 @@ deb http://ports.ubuntu.com/ubuntu-ports devel-security main restricted universe
 deb http://ports.ubuntu.com/ubuntu-ports devel-proposed main restricted universe multiverse
 deb http://ports.ubuntu.com/ubuntu-ports devel-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
    clear
-   echo " "
+   echo ""
    echo "Updating Ubuntu,.."
-   echo " "
+   echo ""
 echo "#!/bin/bash
 touch ~/.hushlogin
 apt update && apt upgrade -y
@@ -111,3 +112,4 @@ bash $linux
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
 rm ubuntu.sh
+#
