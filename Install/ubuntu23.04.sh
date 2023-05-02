@@ -2,6 +2,7 @@
 pkg install root-repo x11-repo
 pkg install proot pulseaudio -y
 termux-setup-storage
+ubuntu=lunar
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
         first=1
@@ -23,7 +24,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://partner-images.canonical.com/oci/lunar/current/ubuntu-lunar-oci-${archurl}-root.tar.gz" -O $tarball
+                wget "https://partner-images.canonical.com/oci/${ubuntu}/current/ubuntu-${ubuntu}-oci-${archurl}-root.tar.gz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
@@ -88,17 +89,10 @@ pulseaudio --start \
     --exit-idle-time=-1
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
-#Repositories
-echo "#Ubuntu Lunar Lobster
-deb http://ports.ubuntu.com/ubuntu-ports lunar main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports lunar-updates main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports lunar-security main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports lunar-proposed main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports lunar-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
    clear
-   echo " "
+   echo ""
    echo "Updating Ubuntu,.."
-   echo " "
+   echo ""
 echo "#!/bin/bash
 touch ~/.hushlogin
 apt update && apt upgrade -y
@@ -111,3 +105,4 @@ bash $linux
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
 rm ubuntu23.04.sh
+#
