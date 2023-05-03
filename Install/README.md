@@ -1,5 +1,5 @@
 Ubuntu Releases
-> ubuntu.com
+
 - https://releases.ubuntu.com
 
 Source Rootfs
