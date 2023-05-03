@@ -6,11 +6,6 @@
 ## Ubuntu on Termux Android
 
 ---
-Announcement :
-
-For Android 12 problems in [Termux v0.119.1](https://apkcombo.com/id/termux/com.termux) it has been fixed.
-
----
 • Install Apps on Android
 - [x] [Termux](https://apkcombo.com/id/termux/com.termux)
 - [x] [Vnc Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
