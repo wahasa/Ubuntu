@@ -105,4 +105,3 @@ bash $linux
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
 rm ubuntu23.10.sh
-#
