@@ -2,7 +2,7 @@
 pkg install root-repo x11-repo
 pkg install proot pulseaudio -y
 termux-setup-storage
-ubuntu=lunar
+ubuntu=mantic
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
         first=1
@@ -24,7 +24,7 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://partner-images.canonical.com/oci/${ubuntu}/current/ubuntu-${ubuntu}-oci-${archurl}-root.tar.gz" -O $tarball
+                wget "https://cdimage.ubuntu.com/ubuntu-base/daily/current/${ubuntu}-base-${archurl}.tar.gz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
@@ -89,13 +89,6 @@ pulseaudio --start \
     --exit-idle-time=-1
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
-#Repositories
-echo "#Ubuntu Development
-deb http://ports.ubuntu.com/ubuntu-ports mantic main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports mantic-updates main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports mantic-security main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports mantic-proposed main restricted universe multiverse
-deb http://ports.ubuntu.com/ubuntu-ports mantic-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
    clear
    echo ""
    echo "Updating Ubuntu,.."
@@ -112,3 +105,4 @@ bash $linux
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
 rm ubuntu23.10.sh
+#
