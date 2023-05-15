@@ -95,10 +95,10 @@ It is not recommended to install because there are some problems.
 [Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
 
 ---
-Note :
-- [x] Sound fix
-- [x] Browser fix
-- [x] Install LibreOffice [Click here,.](https://github.com/wahasa/Ubuntu/issues/6#issuecomment-1243256188)
+Feature
+- [x] Fixed Sound
+- [x] Fixed Browser Crash
+- [x] Access to Sdcard
 - [x] Install Applications [Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Apps)
 
 Visit problems now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
