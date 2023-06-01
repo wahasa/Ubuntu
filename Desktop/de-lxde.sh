@@ -22,7 +22,7 @@ echo "#!/bin/sh
 export DISPLAY=:1
 export PULSE_SERVER=127.0.0.1
 rm -rf /run/dbus/dbus.pid
-dbus-launch lxsession" > /usr/local/bin/vncstart
+dbus-launch startlxde" > /usr/local/bin/vncstart
    echo "vncserver -geometry 1600x900 -name remote-desktop :1" > /usr/local/bin/vnc-start
    echo "vncserver -kill :*" > /usr/local/bin/vnc-stop
    chmod +x ~/.vnc/xstartup
