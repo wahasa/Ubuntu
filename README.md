@@ -97,8 +97,8 @@ It is not recommended to install because there are some problems.
 ---
 Feature
 - [x] Fixed Sound
-- [x] Fixed Browser Crash
 - [x] Access to Sdcard
+- [x] Fixed Browser Crash
 - [x] Install Applications [Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Apps)
 
 Visit problems now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
