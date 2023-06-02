@@ -2,7 +2,7 @@
 pkg install root-repo x11-repo
 pkg install proot pulseaudio -y
 termux-setup-storage
-ubuntu=lunar
+ubuntu=mantic
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
         first=1
