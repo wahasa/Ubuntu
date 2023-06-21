@@ -11,9 +11,9 @@ case `uname -m` in
       *)
            echo "unknown architecture"; exit 1 ;;
       esac
-      wget "https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/code_1.77.3-1681291917_${archurl}.deb"
-      wget "https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/code_1.77.3-1681295476_${archurl}.deb"
-      wget "https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/code_1.77.3-1681292746_${archurl}.deb"
+      wget "https://az764295.vo.msecnd.net/stable/695af097c7bd098fbf017ce3ac85e09bbc5dda06/code_1.79.2-1686733230_${archurl}.deb"
+      wget "https://az764295.vo.msecnd.net/stable/695af097c7bd098fbf017ce3ac85e09bbc5dda06/code_1.79.2-1686733070_${archurl}.deb"
+      wget "https://az764295.vo.msecnd.net/stable/695af097c7bd098fbf017ce3ac85e09bbc5dda06/code_1.79.2-1686734195_${archurl}.deb"
 sleep 1
 apt install ~/code*
 rm /usr/share/applications/code.desktop
