@@ -40,19 +40,19 @@ printf "${grn}To install run with : Install <${blu}Name${grn}>"
 printf "\n\n"
 	;;
         "UbuntuDev")
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu.sh ; chmod +x ubuntu.sh ; bash ubuntu.sh
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu.sh ; chmod +x ubuntu.sh ; bash ubuntu.sh
         ;;
         "Ubuntu23.10")
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.10.sh ; chmod +x ubuntu23.10.sh ; bash ubuntu23.10.sh
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.10.sh ; chmod +x ubuntu23.10.sh ; bash ubuntu23.10.sh
         ;;
         "Ubuntu23.04")
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.04.sh ; chmod +x ubuntu23.04.sh ; bash ubuntu23.04.sh
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.04.sh ; chmod +x ubuntu23.04.sh ; bash ubuntu23.04.sh
         ;;
         "Ubuntu22.10")
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.10.sh ; chmod +x ubuntu22.10.sh ; bash ubuntu22.10.sh
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.10.sh ; chmod +x ubuntu22.10.sh ; bash ubuntu22.10.sh
 	;;
         "Ubuntu22.04")
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.04.sh ; chmod +x ubuntu22.04.sh ; bash ubuntu22.04.sh
+wget -q https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.04.sh ; chmod +x ubuntu22.04.sh ; bash ubuntu22.04.sh
         ;;
         *)
 	bash Install
