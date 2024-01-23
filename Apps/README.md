@@ -48,7 +48,7 @@ apt install gnome-games
 
 ###
 <details>
-<summary><code><b>Gdebi Installer</b></code></summary>
+<summary><code><b>Gdebi</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/gdebi.jpg">
 
 ```
@@ -88,6 +88,15 @@ apt install inkscape
 
 ###
 <details>
+<summary><code><b>Kdenlive</b></code></summary>
+
+```
+apt install kdenlive
+```
+</details>
+
+###
+<details>
 <summary><code><b>Krita</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/krita.jpg">
 
@@ -103,6 +112,15 @@ apt install krita
 
 ```
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; chmod +x libreofficefix.sh ; ./libreofficefix.sh
+```
+</details>
+
+###
+<details>
+<summary><code><b>Lollypop</b></code></summary>
+
+```
+apt install lollypop
 ```
 </details>
 
