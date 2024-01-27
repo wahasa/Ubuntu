@@ -42,6 +42,9 @@ linux=ubuntu
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
+pulseaudio --start \
+    --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" \
+    --exit-idle-time=-1
 cd \$(dirname \$0)
 ## unset LD_PRELOAD in case termux-exec is installed
 unset LD_PRELOAD
@@ -84,9 +87,6 @@ EOM
    rm $tarball
 #Sound Fix
 echo '#!/bin/bash
-pulseaudio --start \
-    --load="module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" \
-    --exit-idle-time=-1
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
 #Repositories
@@ -111,4 +111,4 @@ bash $linux
    echo ""
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
-rm ubuntu.sh
+#rm ubuntu.sh
