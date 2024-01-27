@@ -28,11 +28,6 @@ pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.10.sh ; chmod +x ubuntu23.10.sh ; ./ubuntu23.10.sh
 ```
 
-* Ubuntu 22.04 (Jammy Jellyfish)
-```
-pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.04.sh ; chmod +x ubuntu22.04.sh ; ./ubuntu22.04.sh
-```
-
 * List Ubuntu</br>
 [Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Install)
 </details>
