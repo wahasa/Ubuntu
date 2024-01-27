@@ -103,4 +103,4 @@ bash $linux
    echo ""
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
-#rm ubuntu23.10.sh
+#rm ubuntu24.04.sh
