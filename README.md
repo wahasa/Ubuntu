@@ -13,12 +13,28 @@
 ## Installation
 
 Copy and paste this command to Termux :
-> pkg update && pkg upgrade
+> pkg update ; pkg upgrade
 
-* Install Ubuntu
+<details></br>
+<summary><b><code>Install Ubuntu Lxde</code></b></summary>
+
+* Ubuntu 24.04 (Noble Numbat)
 ```
-pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/install.sh ; chmod +x install.sh ; ./install.sh
+
 ```
+* Ubuntu 23.10 (Mantic Minotaur)
+```
+
+```
+* Ubuntu 23.04 (Lunar Lobster)
+```
+
+```
+* Ubuntu 20.04 (Focal Fossa) 
+```
+
+```
+</details>
 
 * Start Ubuntu
 ```
@@ -53,46 +69,38 @@ on Ubuntu, run this command :
 <details></br>
 <summary><b><code>Install Desktop Xfce</code></b></summary>
 <p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/xfce.jpg"</p>
-</details>
 
 ```
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-xfce.sh ; chmod +x de-xfce.sh ; ./de-xfce.sh
 ```
+</details>
 
 <details></br>
 <summary><b><code>Install Desktop Lxde</code></b></summary>
 <p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/lxde.jpg"</p>
-</details>
 
 ```
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxde.sh ; chmod +x de-lxde.sh ; ./de-lxde.sh
 ```
+</details>
 
 <details></br>
 <summary><b><code>Install Desktop Lxqt</code></b></summary>
 <p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/lxqt.jpg"</p>
-</details>
 
 ```
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxqt.sh ; chmod +x de-lxqt.sh ; ./de-lxqt.sh
 ```
+</details>
 
 <details></br>
 <summary><b><code>Install Desktop Kde</code></b></summary>
 <p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/kde.jpg"</p>
-</details>
 
 ```
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh ; chmod +x de-kde.sh ; ./de-kde.sh
 ```
-
-<details></br>
-<summary><b><code>More List Desktop</code></b></summary>
-Warning :</br>
-It is not recommended to install because there are some problems.
 </details>
-
-[Click here,.](https://github.com/wahasa/Ubuntu/issues/10)
 
 ---
 Feature
