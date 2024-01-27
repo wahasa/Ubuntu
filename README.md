@@ -16,7 +16,7 @@ Copy and paste this command to Termux :
 > pkg update ; pkg upgrade
 
 <details></br>
-<summary><b><code>Install Ubuntu Lxde</code></b></summary>
+<summary><b><code>Install Ubuntu</code></b></summary>
 
 * Ubuntu 24.04 (Noble Numbat)
 ```
