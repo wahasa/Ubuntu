@@ -28,8 +28,7 @@ pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.10.sh ; chmod +x ubuntu23.10.sh ; ./ubuntu23.10.sh
 ```
 
-* List Ubuntu</br>
-[Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Install)
+* List Ubuntu [Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Install)
 </details>
 
 ---
@@ -61,7 +60,7 @@ Basic commands Ubuntu
 ## Desktop Environment
 
 on Ubuntu, run this command :
-> apt update && apt upgrade
+> apt update ; apt upgrade
 
 <details></br>
 <summary><b><code>Install Desktop Xfce</code></b></summary>
