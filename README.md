@@ -20,22 +20,24 @@ Copy and paste this command to Termux :
 
 * Ubuntu 24.04 (Noble Numbat)
 ```
-
+pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu24.04.sh ; chmod +x ubuntu24.04.sh ; ./ubuntu24.04.sh
 ```
+
 * Ubuntu 23.10 (Mantic Minotaur)
 ```
-
-```
-* Ubuntu 23.04 (Lunar Lobster)
+pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.10.sh ; chmod +x ubuntu23.10.sh ; ./ubuntu23.10.sh
 ```
 
+* Ubuntu 22.04 (Jammy Jellyfish)
 ```
-* Ubuntu 20.04 (Focal Fossa) 
+pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.04.sh ; chmod +x ubuntu22.04.sh ; ./ubuntu22.04.sh
 ```
 
-```
+* List Ubuntu</br>
+[Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Install)
 </details>
 
+---
 * Start Ubuntu
 ```
 ubuntu
@@ -143,8 +145,6 @@ on Ubuntu, run this command to stop :
 ```
 vnc-stop
 ```
-
-</br>
 
 ---
 <p align="center">Good Luck</p>
