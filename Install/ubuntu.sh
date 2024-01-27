@@ -85,7 +85,6 @@ EOM
    chmod +x $bin
    #Removing image for some space"
    rm $tarball
-#Sound Fix
 echo '#!/bin/bash
 bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
@@ -111,4 +110,5 @@ bash $linux
    echo ""
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
+
 #rm ubuntu.sh
