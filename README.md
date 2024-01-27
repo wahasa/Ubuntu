@@ -139,8 +139,7 @@ on Ubuntu, run this command to stop :
 ```
 vnc-stop
 ```
-
-</b>
+</br>
 
 ---
 <p align="center">Good Luck</p>
