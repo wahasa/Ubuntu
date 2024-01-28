@@ -8,4 +8,4 @@ Source Rootfs
 - https://hub.docker.com/_/ubuntu
 
 Repositories
-- http://ports.ubuntu.com/ubuntu-ports
+- http://ports.ubuntu.com/ubuntu-ports/dists
