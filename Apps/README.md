@@ -23,17 +23,17 @@ apt install blender
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/chromium.jpg">
 
 ```
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/chromiumfix.sh ; chmod +x chromiumfix.sh ; ./chromiumfix.sh
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/chromiumfix.sh ; chmod +x chromiumfix.sh ; ./chromiumfix.sh
 ```
 </details>
 
 ###
 <details>
-<summary><code><b>Firefox-Esr</b></code></summary>
+<summary><code><b>Firefox</b></code></summary>
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/firefox.jpg">
 
 ```
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Patch/browserfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh ; rm browserfix.sh
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/firefoxfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh ; rm browserfix.sh
 ```
 </details>
 
@@ -111,7 +111,7 @@ apt install krita
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/libreoffice.jpg">
 
 ```
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/libreofficefix.sh ; chmod +x libreofficefix.sh ; ./libreofficefix.sh
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/libreofficefix.sh ; chmod +x libreofficefix.sh ; ./libreofficefix.sh
 ```
 </details>
 
