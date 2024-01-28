@@ -5,5 +5,5 @@ Source Rootfs
 - https://github.com/EXALAB/Anlinux-Resources/tree/master/Rootfs/BackBox
 
 Repositories
-- https://launchpad.net/~backbox
+- https://launchpad.net/~backbox/+archive/ubuntu/eight
 - https://ppa.launchpadcontent.net/backbox/eight/ubuntu/dists
