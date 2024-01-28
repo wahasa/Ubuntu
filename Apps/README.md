@@ -33,7 +33,7 @@ wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/chromiumfix.sh ; 
 <img src="https://github.com/wahasa/Ubuntu/raw/main/Apps/Image/firefox.jpg">
 
 ```
-wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/firefoxfix.sh ; chmod +x browserfix.sh ; ./browserfix.sh ; rm browserfix.sh
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Apps/firefoxfix.sh ; chmod +x firefoxfix.sh ; ./firefoxfix.sh
 ```
 </details>
 
