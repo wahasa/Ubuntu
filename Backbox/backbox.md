@@ -25,3 +25,7 @@ mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/
 ```
 cp /etc/skel/.bashrc ~/
 ```
+
+```
+apt update ; apt upgrade -y
+```
