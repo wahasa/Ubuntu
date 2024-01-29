@@ -93,9 +93,11 @@ chmod +x $PREFIX/bin/$linux
    echo "Updating Backbox,.."
    echo ""
 echo "#!/bin/bash
-#touch ~/.hushlogin
+mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/
+touch ~/.hushlogin
 apt update && apt upgrade -y
 apt install apt-utils dialog nano -y
+cp /etc/skel/.bashrc ~/
 rm -rf ~/.bash_profile
 exit" > $folder/root/.bash_profile
 bash $linux
