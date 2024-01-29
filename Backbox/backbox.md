@@ -1,11 +1,16 @@
 ### Backbox 8 (Jammy Jellyfish)
 
 * Install Ubuntu
+
+on Termux, run this command :
 ```
 pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu22.04.sh ; chmod +x ubuntu22.04.sh ; ./ubuntu22.04.sh
 ```
 
+---
 * Add Repo Backbox
+
+on Backbox, run this command :
 ```
 apt install wget gnupg gnupg1 gnupg2 -y
 ```
@@ -29,3 +34,9 @@ cp /etc/skel/.bashrc ~/
 ```
 apt update ; apt upgrade -y
 ```
+</br>
+
+---
+<p align="center">Good Luck</p>
+
+---
