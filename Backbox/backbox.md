@@ -28,7 +28,11 @@ mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/
 ```
 
 ```
-cp /etc/skel/.bashrc ~/
+cp /etc/skel/.bashrc .
+```
+
+```
+sed -i 's/32/31/g' .bashrc
 ```
 
 ```
