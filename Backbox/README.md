@@ -4,7 +4,7 @@
 - [x] [Vnc Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
 
 ---
-Copy and paste this command to Termux :
+on Termux, run this command :
 * Install Backbox
 
 ```
