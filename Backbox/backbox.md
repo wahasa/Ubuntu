@@ -38,6 +38,22 @@ sed -i 's/32/31/g' .bashrc
 ```
 apt update ; apt upgrade -y
 ```
+
+---
+* Start Ubuntu
+```
+ubuntu
+```
+
+* Stop Ubuntu
+```
+exit
+```
+
+* Remove Ubuntu
+```
+rm -rf ubuntu-fs
+```
 </br>
 
 ---
