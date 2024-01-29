@@ -7,5 +7,8 @@ pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 
 * Add Repo Backbox
 ```
+nano /etc/apt/sources.list
+```
+```
 deb https://ppa.launchpadcontent.net/backbox/eight/ubuntu jammy main
 ```
