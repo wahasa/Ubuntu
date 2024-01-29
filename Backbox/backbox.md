@@ -21,3 +21,7 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 680E1A5A78A7ABE1
 ```
 mv /etc/apt/trusted.gpg /etc/apt/trusted.gpg.d/
 ```
+
+```
+cp /etc/skel/.bashrc ~/
+```
