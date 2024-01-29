@@ -4,6 +4,7 @@
 - [x] [Vnc Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
 
 ---
+Copy and paste this command to Termux :
 * Install Backbox
 
 ```
@@ -84,4 +85,39 @@ Feature
 Visit problems now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
 ---
-* VNC Viewer
+### VNC Viewer
+* Start VNC Server
+
+on Backbox, run this command to start :
+```
+vnc-start
+```
+
+* Open Vnc Viewer
+
+Add (+) VNC Client to connect, fill with :
+
+Address
+```
+localhost:1
+```
+
+Name
+```
+Backbox Desktop
+```
+
+To disconnect VNC Client, click (X) on the right.
+
+* Stop VNC Server
+
+on Backbox, run this command to stop :
+```
+vnc-stop
+```
+</br>
+
+---
+<p align="center">Good Luck</p>
+
+---
