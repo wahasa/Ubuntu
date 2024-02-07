@@ -4,4 +4,4 @@ Icon=~/.local/share/icons/menu.png
 Exec=sh -c ~/.config/rofi/launchers/type-3/launcher.sh
 Hidden=false
 NoDisplay=false
-Name=Rofi Launcher
+Name=Menu Launcher
