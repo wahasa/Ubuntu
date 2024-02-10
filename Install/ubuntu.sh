@@ -2,7 +2,8 @@
 pkg install root-repo x11-repo
 pkg install proot pulseaudio -y
 termux-setup-storage
-ubuntu=mantic
+ubuntu=noble
+#ubuntu=mantic
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
         first=1
@@ -24,7 +25,8 @@ if [ "$first" != 1 ];then
                 *)
                         echo "unknown architecture"; exit 1 ;;
                 esac
-                wget "https://partner-images.canonical.com/oci/${ubuntu}/current/ubuntu-${ubuntu}-oci-${archurl}-root.tar.gz" -O $tarball
+                wget "https://cdimage.ubuntu.com/ubuntu-base/daily/current/${ubuntu}-base-${archurl}.tar.gz" -O $tarball
+                #wget "https://partner-images.canonical.com/oci/${ubuntu}/current/ubuntu-${ubuntu}-oci-${archurl}-root.tar.gz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
@@ -59,7 +61,9 @@ if [ -n "\$(ls -A $folder/binds)" ]; then
     done
 fi
 command+=" -b /dev"
+command+=" -b /dev/null:/proc/sys/kernel/cap_last_cap"
 command+=" -b /proc"
+command+=" -b /data/data/com.termux/files/usr/tmp:/tmp"
 command+=" -b $folder/root:/dev/shm"
 ## uncomment the following line to have access to the home directory of termux
 #command+=" -b /data/data/com.termux/files/home:/root"
@@ -103,6 +107,7 @@ echo "#!/bin/bash
 touch ~/.hushlogin
 apt update && apt upgrade -y
 apt install apt-utils dialog nano -y
+cp /etc/skel/.bashrc .
 rm -rf ~/.bash_profile
 exit" > $folder/root/.bash_profile
 bash $linux
@@ -110,5 +115,4 @@ bash $linux
    echo ""
    echo "You can now start Ubuntu with 'ubuntu' script next time"
    echo ""
-
 #rm ubuntu.sh
