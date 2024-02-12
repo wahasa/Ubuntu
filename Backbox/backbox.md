@@ -10,7 +10,7 @@ pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 ---
 * Add Repo Backbox
 
-on Backbox, run this command :
+on Ubuntu, run this command :
 ```
 apt install wget gnupg gnupg1 gnupg2 -y
 ```
