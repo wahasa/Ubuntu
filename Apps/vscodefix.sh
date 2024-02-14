@@ -4,8 +4,6 @@ case `uname -m` in
            archurl="arm64" ;;
       arm*)
            archurl="armhf" ;;
-      x86)
-           archurl="amd64" ;;
       x86_64)
            archurl="amd64" ;;
       *)
