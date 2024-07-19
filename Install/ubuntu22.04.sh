@@ -2,7 +2,7 @@
 pkg install root-repo x11-repo
 pkg install proot xz-utils pulseaudio -y
 termux-setup-storage
-##Code Name Ubuntu
+##Code Name Ubuntu (Core)
 # - trusty (Ubuntu 14.04)  ||  - bionic (Ubuntu 18.04)
 # - xenial (Ubuntu 16.04)  ||  - focal  (Ubuntu 20.04)
 ubuntu=jammy
