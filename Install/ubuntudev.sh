@@ -2,7 +2,10 @@
 pkg install root-repo x11-repo
 pkg install proot xz-utils pulseaudio -y
 termux-setup-storage
-ubuntu=noble
+##Code Name Ubuntu
+# - trusty (Ubuntu 14.04)  ||  - bionic (Ubuntu 18.04)
+# - xenial (Ubuntu 16.04)  ||  - focal  (Ubuntu 20.04)
+ubuntu=oracular
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
         first=1
@@ -24,8 +27,8 @@ if [ "$first" != 1 ];then
                 *)
                         echo "Unknown Architecture"; exit 1 ;;
                 esac
-                wget "https://cdimage.ubuntu.com/ubuntu-base/daily/current/${ubuntu}-base-${archurl}.tar.gz" -O $tarball
-                #wget "https://partner-images.canonical.com/oci/${ubuntu}/current/ubuntu-${ubuntu}-oci-${archurl}-root.tar.gz" -O $tarball
+                #wget "https://partner-images.canonical.com/core/${ubuntu}/current/ubuntu-${ubuntu}-core-cloudimg-${archurl}-root.tar.gz" -O $tarball
+                wget "https://partner-images.canonical.com/oci/${ubuntu}/current/ubuntu-${ubuntu}-oci-${archurl}-root.tar.gz" -O $tarball
         fi
         cur=`pwd`
         mkdir -p "$folder"
@@ -95,8 +98,9 @@ deb http://ports.ubuntu.com/ubuntu-ports devel-updates main restricted universe 
 deb http://ports.ubuntu.com/ubuntu-ports devel-security main restricted universe multiverse
 deb http://ports.ubuntu.com/ubuntu-ports devel-proposed main restricted universe multiverse
 deb http://ports.ubuntu.com/ubuntu-ports devel-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
-echo "export PULSE_SERVER=127.0.0.1" >> $folder/root/.bashrc
-echo 'bash .ubuntu' > $PREFIX/bin/$linux
+echo "export PULSE_SERVER=127.0.0.1" >> $folder/etc/skel/.bashrc
+echo '#!/bin/bash
+bash .ubuntu' > $PREFIX/bin/$linux
 chmod +x $PREFIX/bin/$linux
    clear
    echo ""
