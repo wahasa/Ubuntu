@@ -118,7 +118,7 @@ bash $linux
    echo ""
    echo "You can login to Ubuntu with 'ubuntu' script next time"
    echo ""
-   #rm ubuntudev.sh
+   #rm ubuntu22.04.sh
 
 #
 ## Script edited by 'WaHaSa', Script V3-revision.
