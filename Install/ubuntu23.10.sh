@@ -2,9 +2,9 @@
 pkg install root-repo x11-repo
 pkg install proot xz-utils pulseaudio -y
 termux-setup-storage
-##Code Name Ubuntu
-# - trusty (Ubuntu 14.04)  ||  - bionic (Ubuntu 18.04)
-# - xenial (Ubuntu 16.04)  ||  - focal  (Ubuntu 20.04)
+##Code Name Ubuntu (Oci)
+# - lunar  (Ubuntu 23.04)  ||  - noble     (Ubuntu 24.04)
+# - mantic (Ubuntu 23.10)  ||  - oracular  (Ubuntu 24.10)
 ubuntu=mantic
 folder=ubuntu-fs
 if [ -d "$folder" ]; then
