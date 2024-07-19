@@ -18,17 +18,17 @@ Copy and paste this command to Termux :
 <details></br>
 <summary><b><code>Install Ubuntu</code></b></summary>
 
+* Ubuntu 24.10 (Pre-release)
+```
+pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu24.10.sh ; chmod +x ubuntu24.10.sh ; ./ubuntu24.10.sh
+```
+
 * Ubuntu 24.04 (Noble Numbat)
 ```
 pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu24.04.sh ; chmod +x ubuntu24.04.sh ; ./ubuntu24.04.sh
 ```
 
-* Ubuntu 23.10 (Mantic Minotaur)
-```
-pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu23.10.sh ; chmod +x ubuntu23.10.sh ; ./ubuntu23.10.sh
-```
-
-* List Ubuntu [Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Install)
+* List Ubuntu | [Click Hare >](https://github.com/wahasa/Ubuntu/tree/main/Install)
 </details>
 
 ---
