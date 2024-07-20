@@ -44,7 +44,7 @@ exit
 
 * Remove Ubuntu
 ```
-rm -rf ubuntu-fs .parrot $PREFIX/bin/parrot
+rm -rf ubuntu-fs .ubuntu $PREFIX/bin/ubuntu
 ```
 
 ---
