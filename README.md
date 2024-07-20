@@ -18,17 +18,19 @@ Copy and paste this command to Termux :
 <details></br>
 <summary><b><code>Install Ubuntu</code></b></summary>
 
-* Ubuntu 24.10 (Pre-release)
+#### Ubuntu 24.10 (Pre-release)
+Rootfs : Armhf, Arm64, Amd64
 ```
 pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu24.10.sh ; chmod +x ubuntu24.10.sh ; ./ubuntu24.10.sh
 ```
 
-* Ubuntu 24.04 (Noble Numbat)
+#### Ubuntu 24.04 (Noble Numbat)
+Rootfs : Armhf, Arm64, Amd64
 ```
 pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu24.04.sh ; chmod +x ubuntu24.04.sh ; ./ubuntu24.04.sh
 ```
 
-* List Ubuntu | [Click Hare >](https://github.com/wahasa/Ubuntu/tree/main/Install)
+#### List Ubuntu | [Click Hare >](https://github.com/wahasa/Ubuntu/tree/main/Install)
 </details>
 
 ---
@@ -64,8 +66,8 @@ In Ubuntu, run this command :
 
 <details></br>
 <summary><b><code>Install Desktop Xfce</code></b></summary>
-<p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/xfce.jpg"</p>
 
+![xfce](https://github.com/wahasa/Project/assets/69626847/8a5d72d8-d08b-491f-a209-80e2fa68786a)
 ```
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-xfce.sh ; chmod +x de-xfce.sh ; ./de-xfce.sh
 ```
@@ -73,8 +75,8 @@ apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 
 <details></br>
 <summary><b><code>Install Desktop Lxde</code></b></summary>
-<p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/lxde.jpg"</p>
 
+![lxde](https://github.com/wahasa/Project/assets/69626847/d7e1579d-cd75-4151-832f-f869a892eeeb)
 ```
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxde.sh ; chmod +x de-lxde.sh ; ./de-lxde.sh
 ```
@@ -82,8 +84,8 @@ apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 
 <details></br>
 <summary><b><code>Install Desktop Lxqt</code></b></summary>
-<p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/lxqt.jpg"</p>
 
+![lxqt](https://github.com/wahasa/Project/assets/69626847/e6290702-c845-4a95-b555-65e27d36c234)
 ```
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-lxqt.sh ; chmod +x de-lxqt.sh ; ./de-lxqt.sh
 ```
@@ -91,8 +93,8 @@ apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/
 
 <details></br>
 <summary><b><code>Install Desktop Kde</code></b></summary>
-<p align="center"><img src="https://raw.githubusercontent.com/wahasa/Ubuntu/main/Images/kde.jpg"</p>
 
+![kde](https://github.com/wahasa/Project/assets/69626847/efaf0ab7-2891-4314-bded-f9d9a25b4721)
 ```
 apt install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Desktop/de-kde.sh ; chmod +x de-kde.sh ; ./de-kde.sh
 ```
@@ -103,7 +105,7 @@ Feature
 - [x] Fixed Sound
 - [x] Access to Sdcard
 - [x] Fixed Browser Crash
-- [x] Install Applications [Click here,.](https://github.com/wahasa/Ubuntu/tree/main/Apps)
+- [x] Install Applications | [Click Here >](https://github.com/wahasa/Ubuntu/tree/main/Apps)
 
 Visit problems now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
