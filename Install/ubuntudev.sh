@@ -99,8 +99,8 @@ deb http://ports.ubuntu.com/ubuntu-ports devel-security main restricted universe
 deb http://ports.ubuntu.com/ubuntu-ports devel-proposed main restricted universe multiverse
 deb http://ports.ubuntu.com/ubuntu-ports devel-backports main restricted universe multiverse" > ~/"$folder"/etc/apt/sources.list
 echo "export PULSE_SERVER=127.0.0.1" >> $folder/etc/skel/.bashrc
-echo '#!/bin/bash
-bash .ubuntu' > $PREFIX/bin/$linux
+echo 'bash .ubuntu' > $PREFIX/bin/$linux
+rm $folder/etc/apt/sources.list.d/*
 chmod +x $PREFIX/bin/$linux
    clear
    echo ""
