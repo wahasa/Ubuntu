@@ -13,7 +13,7 @@
 ## Installation
 
 Copy and paste this command to Termux :
-> pkg update ; pkg upgrade
+> pkg update
 
 <details></br>
 <summary><b><code>Install Ubuntu</code></b></summary>
@@ -44,7 +44,7 @@ exit
 
 * Remove Ubuntu
 ```
-rm -rf ubuntu-fs
+rm -rf ubuntu-fs .parrot $PREFIX/bin/parrot
 ```
 
 ---
@@ -59,7 +59,7 @@ Basic commands Ubuntu
 ---
 ## Desktop Environment
 
-on Ubuntu, run this command :
+In Ubuntu, run this command :
 > apt update ; apt upgrade
 
 <details></br>
@@ -112,7 +112,7 @@ Visit problems now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
 * Start VNC Server
 
-on Ubuntu, run this command to start :
+In Ubuntu, run this command to start :
 ```
 vnc-start
 ```
@@ -135,7 +135,7 @@ To disconnect VNC Client, click (X) on the right.
 
 * Stop VNC Server
 
-on Ubuntu, run this command to stop :
+In Ubuntu, run this command to stop :
 ```
 vnc-stop
 ```
