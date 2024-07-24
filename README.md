@@ -15,8 +15,7 @@
 Copy and paste this command to Termux :
 > pkg update
 
-<details></br>
-<summary><b><code>Install Ubuntu</code></b></summary>
+<details><summary><b><code>Install Ubuntu</code></b></summary>
 
 #### Ubuntu 24.10 (Pre-release)
 Rootfs : Armhf, Arm64, Amd64
