@@ -14,7 +14,7 @@ Types: deb
 URIs: http://ftp.debian.org/debian
 Suites: stable
 Components: main
-Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg" > /etc/apt/sources.list.d/firefox.sources
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg" > /etc/apt/sources.list.d/debian-firefox-chromium.sources
 
 sudo apt update
 
