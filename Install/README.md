@@ -3,6 +3,7 @@
 
 <b>Repositories</b>
 - http://ports.ubuntu.com/ubuntu-ports/dists
+- https://esm.ubuntu.com/infra/ubuntu/dists
 
 <b>Source Rootfs</b>
 
