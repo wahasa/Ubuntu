@@ -1,11 +1,9 @@
-
 <p align="center">My Channel</br><b>
 | <a href="https://discord.gg/GCehyym">Discord</a> | <a href="https://youtube.com/@layargeser">YouTube</a> |</b></p>
 
 ---
 ## Ubuntu on Termux Android
 
----
 • Install Apps on Android
 - [x] [Termux](https://play.google.com/store/apps/details?id=com.termux)
 - [x] [Vnc Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android)
@@ -15,22 +13,6 @@
 Copy and paste this command to Termux :
 > pkg update
 
-<details><summary><b><code>Install Ubuntu</code></b></summary>
-
-#### Ubuntu 24.10 (Pre-release)
-Rootfs : Armhf, Arm64, Amd64
-```
-pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu24.10.sh ; chmod +x ubuntu24.10.sh ; ./ubuntu24.10.sh
-```
-
-#### Ubuntu 24.04 (Noble Numbat)
-Rootfs : Armhf, Arm64, Amd64
-```
-pkg install wget -y ; wget https://raw.githubusercontent.com/wahasa/Ubuntu/main/Install/ubuntu24.04.sh ; chmod +x ubuntu24.04.sh ; ./ubuntu24.04.sh
-```
-
-#### List Ubuntu | [Click Hare >](https://github.com/wahasa/Ubuntu/tree/main/Install)
-</details>
 
 ---
 * Start Ubuntu
@@ -61,7 +43,7 @@ Basic commands Ubuntu
 ## Desktop Environment
 
 In Ubuntu, run this command :
-> apt update ; apt upgrade
+> apt update
 
 <details></br>
 <summary><b><code>Install Desktop Xfce</code></b></summary>
@@ -78,7 +60,10 @@ Feature
 Visit problems now in : [Issues](https://github.com/wahasa/Ubuntu/issues)
 
 ---
-## VNC Viewer
+## Remote Desktop
+
+<details></br>
+<summary><b><code>VNC Viewer</code></b></summary>
 
 * Start VNC Server
 
@@ -109,6 +94,7 @@ In Ubuntu, run this command to stop :
 ```
 vnc-stop
 ```
+</details>
 </br>
 
 ---
