@@ -1,12 +1,14 @@
-Note :
 Test script from admin.
+</br>
+- [x] Work : 25.04, 24.04, 22.04, 20.04, 18.04
+- [ ] Error : devel, 26.04, 25.10, 16.04, 14.04
+</br></br>
 
-- [ ] word
-- [ ] not
-
+* Create build
 ```
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/refs/heads/main/Install/build.sh ; chmod +x build.sh
 ```
+* Install build
 ```
 wget https://raw.githubusercontent.com/wahasa/Ubuntu/refs/heads/main/Install/ubuntu.sh ; chmod +x ubuntu.sh
 ```
