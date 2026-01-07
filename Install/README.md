@@ -1,3 +1,17 @@
+Note :
+Test script from admin.
+
+- [ ] word
+- [ ] not
+
+```
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/refs/heads/main/Install/build.sh ; chmod +x build.sh
+```
+```
+wget https://raw.githubusercontent.com/wahasa/Ubuntu/refs/heads/main/Install/ubuntu.sh ; chmod +x ubuntu.sh
+```
+
+---
 <b>Ubuntu Releases</b>
 - https://releases.ubuntu.com
 
